@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.0
+Version:	1.1
 Release:	1%{?dist}
 Summary:	Keys of various Linux distributions
 
@@ -32,5 +32,8 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}
 
 %changelog
+* Thu Oct 15 2015 Miroslav Suchý <msuchy@redhat.com> 1.1-1
+- initial package
+
 
 
