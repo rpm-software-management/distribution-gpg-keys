@@ -1,2 +1,11 @@
 # distribution-gpg-keys
-Collection of GPG keys used in Linux Distributions
+
+GPG keys used by various Linux distributions to sign packages.
+
+## Keys for
+
+ * centos
+ * epel
+ * fedora
+ * redhat
+ * rpmfusion
