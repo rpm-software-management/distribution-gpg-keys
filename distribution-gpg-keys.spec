@@ -12,6 +12,10 @@ URL:		https://github.com/xsuchy/distribution-gpg-keys
 Source0:	%{name}-%{version}.tar.gz
 BuildArch:	noarch
 
+Suggests:	ubu-keyring
+Suggests:	debian-keyring
+Suggests:	archlinux-keyrings
+
 %description
 GPG keys used by various Linux distributions to sign packages.
 
