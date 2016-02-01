@@ -6,31 +6,6 @@ import argparse
 import sys
 from argparse import RawTextHelpFormatter
 
-parser = argparse.ArgumentParser(description='Download GPG keys for COPR projects.', formatter_class=RawTextHelpFormatter)
-parser.add_argument('-f', '--file', action='store',
-                    help='store keys to a file instead of printing to stdout')
-parser.add_argument('--feurl', action='store', default='http://copr.fedorainfracloud.org/',
-                    help='use this url as baseurl to frontend instead of\nhttp://copr.fedorainfracloud.org/')
-parser.add_argument('--beurl', action='store', default='https://copr-be.cloud.fedoraproject.org',
-                    help='use this url as baseurl to backend instead of\nhttps://copr-be.cloud.fedoraproject.org')
-parser.add_argument('--user', action='store',
-                    help='only download gpg keys for projects of this user')
-parser.add_argument('--project', action='store',
-                    help='only download gpg keys for projects of this name')
-parser.add_argument('--isolate-files', action='store_true',
-                    help='Each GPG file is stored in separate file.')
-
-args = parser.parse_args()
-
-be_url_tmpl = args.beurl+'/results/{username}/{projectname}/pubkey.gpg'
-
-cli = create_client2_from_params(root_url=args.feurl)
-
-if args.file:
-    output_file = open(args.file, 'w')
-else:
-    output_file = None
-
 def get_gpg(project):
     url = be_url_tmpl.format(**{'username': project.owner, 'projectname': project.name})
     r = requests.get(url)
@@ -66,4 +41,27 @@ def main():
             gpg_out(get_gpg(project), args.isolate_files, project)
         _offset += _limit
 
+parser = argparse.ArgumentParser(description='Download GPG keys for COPR projects.', formatter_class=RawTextHelpFormatter)
+parser.add_argument('-f', '--file', action='store',
+                    help='store keys to a file instead of printing to stdout')
+parser.add_argument('--feurl', action='store', default='http://copr.fedorainfracloud.org/',
+                    help='use this url as baseurl to frontend instead of\nhttp://copr.fedorainfracloud.org/')
+parser.add_argument('--beurl', action='store', default='https://copr-be.cloud.fedoraproject.org',
+                    help='use this url as baseurl to backend instead of\nhttps://copr-be.cloud.fedoraproject.org')
+parser.add_argument('--user', action='store',
+                    help='only download gpg keys for projects of this user')
+parser.add_argument('--project', action='store',
+                    help='only download gpg keys for projects of this name')
+parser.add_argument('--isolate-files', action='store_true',
+                    help='Each GPG file is stored in separate file.')
+
+args = parser.parse_args()
+
+be_url_tmpl = args.beurl+'/results/{username}/{projectname}/pubkey.gpg'
+
+cli = create_client2_from_params(root_url=args.feurl)
+if args.file:
+    output_file = open(args.file, 'w')
+else:
+    output_file = None
 main()
