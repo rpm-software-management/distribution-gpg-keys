@@ -23,15 +23,15 @@ def gpg_out(gpg, isolate_file, project):
 
 def main():
     kwargs = {}
-    
+
     if args.user:
         kwargs['owner'] = args.user
     if args.project:
         kwargs['name'] = args.project
-    
+
     _offset = 0
     _limit = 100
-    
+
     while True:
         projects = cli.projects.get_list(offset=_offset, limit=_limit, **kwargs)
         if not projects:
