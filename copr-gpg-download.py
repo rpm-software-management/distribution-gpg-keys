@@ -3,7 +3,6 @@
 from copr import create_client2_from_params
 import requests
 import argparse
-import sys
 from argparse import RawTextHelpFormatter
 
 def get_gpg(project):
