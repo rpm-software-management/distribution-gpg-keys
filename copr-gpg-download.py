@@ -40,8 +40,10 @@ def get_gpg(project):
 
 def gpg_out(gpg, isolate_file, project):
     if isolate_file:
-        f = open("copr-%s-%s.gpg", 'w')
+        file_name = "copr-{0}-{1}.gpg".format(project.owner, project.name)
+        f = open(file_name, 'w')
         f.write(gpg)
+        print("Saved {0}".format(file_name))
     elif output_file:
         output_file.write(gpg)
     else:
