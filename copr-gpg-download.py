@@ -17,8 +17,6 @@ parser.add_argument('--user', action='store',
                     help='only download gpg keys for projects of this user')
 parser.add_argument('--project', action='store',
                     help='only download gpg keys for projects of this name')
-parser.add_argument('project_ids', metavar='ID', type=int, nargs='*',
-                    help='project id for which the gpg keys should be retrieved\n(by default all)')
 parser.add_argument('--isolate-files', action='store_true',
                     help='Each GPG file is stored in separate file.')
 
@@ -48,12 +46,6 @@ def gpg_out(gpg, isolate_file, project):
         output_file.write(gpg)
     else:
         print(gpg)
-
-if args.project_ids:
-    for project_id in args.project_ids:
-        project = cli.projects.get_one(project_id)
-        gpg_out(get_gpg(project))
-    sys.exit(0)
 
 kwargs = {}
 
