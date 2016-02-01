@@ -19,6 +19,8 @@ parser.add_argument('--project', action='store',
                    help='only download gpg keys for projects of this name')
 parser.add_argument('project_ids', metavar='ID', type=int, nargs='*',
                    help='project id for which the gpg keys should be retrieved\n(by default all)')
+parser.add_argument('--isolate-files', action='store_true',
+                   help='Each GPG file is stored in separate file.')
 
 args = parser.parse_args()
 
@@ -36,8 +38,11 @@ def get_gpg(project):
     r = requests.get(url)
     return r.text
 
-def gpg_out(gpg):
-    if output_file:
+def gpg_out(gpg, isolate_file, project):
+    if isolate_file:
+        f = open("copr-%s-%s.gpg", 'w')
+        f.write(gpg)
+    elif output_file:
         output_file.write(gpg)
     else:
         print(gpg)
@@ -63,5 +68,5 @@ while True:
     if not projects:
         break
     for project in projects:
-        gpg_out(get_gpg(project))
+        gpg_out(get_gpg(project), args.isolate_files, project)
     _offset += _limit
