@@ -8,19 +8,19 @@ from argparse import RawTextHelpFormatter
 
 parser = argparse.ArgumentParser(description='Download GPG keys for COPR projects.', formatter_class=RawTextHelpFormatter)
 parser.add_argument('-f', '--file', action='store',
-                   help='store keys to a file instead of printing to stdout')
+                    help='store keys to a file instead of printing to stdout')
 parser.add_argument('--feurl', action='store', default='http://copr.fedorainfracloud.org/',
-                   help='use this url as baseurl to frontend instead of\nhttp://copr.fedorainfracloud.org/')
+                    help='use this url as baseurl to frontend instead of\nhttp://copr.fedorainfracloud.org/')
 parser.add_argument('--beurl', action='store', default='https://copr-be.cloud.fedoraproject.org',
-                   help='use this url as baseurl to backend instead of\nhttps://copr-be.cloud.fedoraproject.org')
+                    help='use this url as baseurl to backend instead of\nhttps://copr-be.cloud.fedoraproject.org')
 parser.add_argument('--user', action='store',
-                   help='only download gpg keys for projects of this user')
+                    help='only download gpg keys for projects of this user')
 parser.add_argument('--project', action='store',
-                   help='only download gpg keys for projects of this name')
+                    help='only download gpg keys for projects of this name')
 parser.add_argument('project_ids', metavar='ID', type=int, nargs='*',
-                   help='project id for which the gpg keys should be retrieved\n(by default all)')
+                    help='project id for which the gpg keys should be retrieved\n(by default all)')
 parser.add_argument('--isolate-files', action='store_true',
-                   help='Each GPG file is stored in separate file.')
+                    help='Each GPG file is stored in separate file.')
 
 args = parser.parse_args()
 
