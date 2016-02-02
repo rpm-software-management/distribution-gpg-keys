@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.2
+Version:	1.3
 Release:	1%{?dist}
 Summary:	Keys of various Linux distributions
 
@@ -36,6 +36,13 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}
 
 %changelog
+* Tue Feb 02 2016 Miroslav Suchý <msuchy@redhat.com> 1.3-1
+- add copr keys
+- added obsolete gpg keys
+- document from where those keys can be originally obtained
+- suggest installations of other keyrings
+- do not include email in changelog items
+
 * Fri Oct 16 2015 Miroslav Suchý <msuchy@redhat.com> 1.2-1
 - document how to do release
 - change license to CC-0
