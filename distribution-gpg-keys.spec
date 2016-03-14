@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.3
+Version:	1.4
 Release:	1%{?dist}
 Summary:	Keys of various Linux distributions
 
@@ -36,6 +36,11 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}
 
 %changelog
+* Mon Mar 14 2016 Miroslav Suchý <msuchy@redhat.com> 1.4-1
+- update SOURCES
+- update copr gpg keys
+- add mageia gpg keys
+
 * Tue Feb 02 2016 Miroslav Suchý <msuchy@redhat.com> 1.3-1
 - add copr keys
 - added obsolete gpg keys
