@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.4
+Version:	1.5
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -51,6 +51,12 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Mon Aug 08 2016 Miroslav Suchý <msuchy@redhat.com> 1.5-1
+- move copr keys to subpackage
+- update copr gpg keys
+- add RPM-GPG-KEY-CentOS-SIG-AltArch-7-ppc64le
+- add F25 keys
+
 * Mon Mar 14 2016 Miroslav Suchý <msuchy@redhat.com> 1.4-1
 - update SOURCES
 - update copr gpg keys
