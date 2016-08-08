@@ -1,7 +1,7 @@
 Name:		distribution-gpg-keys
 Version:	1.4
 Release:	1%{?dist}
-Summary:	Keys of various Linux distributions
+Summary:	GPG keys of various Linux distributions
 
 License:	CC0
 URL:		https://github.com/xsuchy/distribution-gpg-keys
@@ -15,25 +15,40 @@ BuildArch:	noarch
 Suggests:	ubu-keyring
 Suggests:	debian-keyring
 Suggests:	archlinux-keyrings
+Suggests:   %{name}-copr
 
 %description
 GPG keys used by various Linux distributions to sign packages.
+
+%package copr
+Summary: GPG keys for Copr projects
+BuildArch: noarch
+
+%description copr
+GPG keys used by Copr projects.
 
 %prep
 %setup -q
 
 
 %build
+#nothing to do here
 
 
 %install
 mkdir -p %{buildroot}%{_datadir}/%{name}/
 cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 
+
 %files
 %license LICENSE
-%doc README.md
+%doc README.md SOURCES.md
 %{_datadir}/%{name}
+%exclude %{_datadir}/%{name}/copr
+
+%files copr
+%license LICENSE
+%{_datadir}/%{name}/copr
 
 %changelog
 * Mon Mar 14 2016 Miroslav Suchý <msuchy@redhat.com> 1.4-1
