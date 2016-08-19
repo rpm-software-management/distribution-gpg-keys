@@ -15,6 +15,8 @@ GPG keys used by various Linux distributions to sign packages.
 To get tar.gz:
 
     dnf install tito
+    git clone git://github.com/xsuchy/distribution-gpg-keys.git
+    cd distribution-gpg-keys
     tito build --tgz
 
 To get SRPM:
