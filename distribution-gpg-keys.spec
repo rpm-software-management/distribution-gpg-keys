@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.5
+Version:	1.6
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -51,6 +51,9 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Mon Sep 12 2016 Miroslav Suchý <msuchy@redhat.com> 1.6-1
+- Rename mageia pubkey to RPM-GPG-KEY-Mageia
+
 * Mon Aug 08 2016 Miroslav Suchý <msuchy@redhat.com> 1.5-1
 - move copr keys to subpackage
 - update copr gpg keys
