@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.6
+Version:	1.7
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,9 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Mon Sep 12 2016 Miroslav Suchý <msuchy@redhat.com> 1.7-1
+- do not use weak deps on rhel
+
 * Mon Sep 12 2016 Miroslav Suchý <msuchy@redhat.com> 1.6-1
 - Rename mageia pubkey to RPM-GPG-KEY-Mageia
 
