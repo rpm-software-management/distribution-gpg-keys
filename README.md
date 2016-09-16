@@ -4,11 +4,13 @@ GPG keys used by various Linux distributions to sign packages.
 
 ## Keys for
 
- * centos
- * epel
- * fedora
- * redhat
- * rpmfusion
+ * CentOS
+ * EPEL
+ * Fedora
+ * Red Hat
+ * RPM Fusion
+ * Mageia
+ * COPR repositories
 
 ## Releasing
 
