@@ -23,3 +23,9 @@ https://access.redhat.com/security/team/key
 ## RpmFusion
 
 http://rpmfusion.org/keys
+
+## How to verify the GPG key
+
+Run `gpg --with-fingerprint key_file` and compare the output with fingerprints on pages above.
+
+
