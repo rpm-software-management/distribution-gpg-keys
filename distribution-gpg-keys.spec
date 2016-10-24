@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.7
+Version:	1.8
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,17 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Mon Oct 24 2016 Miroslav Suchý <miroslav@suchy.cz> 1.8-1
+- update copr gpg keys
+- README.md: Indicate what keys are actually included
+- add rpmfusion F19 keys
+- add note how to verify gpg key using fingerprint
+- RPMFusion add fedora-20 and fedora-21 keys
+- RPMFusion add rpmfusion el-7 keys
+- RPMFusion add fedora-25 keys
+- use symbol links .
+- Add a crucial information to README.md
+
 * Mon Sep 12 2016 Miroslav Suchý <msuchy@redhat.com> 1.7-1
 - do not use weak deps on rhel
 
