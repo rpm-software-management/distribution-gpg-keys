@@ -4,18 +4,23 @@ from copr import create_client2_from_params
 import requests
 import argparse
 from argparse import RawTextHelpFormatter
+import os.path
 
 def get_gpg(project):
     url = be_url_tmpl.format(**{'username': project.owner, 'projectname': project.name})
     r = requests.get(url)
     return r.text
 
-def gpg_out(gpg, isolate_file, project):
+def gpg_out(isolate_file, project):
     if isolate_file:
         file_name = "copr-{0}-{1}.gpg".format(project.owner, project.name)
-        f = open(file_name, 'w')
-        f.write(gpg)
-        print("Saved {0}".format(file_name))
+        if not os.path.isfile(file_name):
+            f = open(file_name, 'w')
+            f.write(get_gpg(project))
+            f.close()
+            print("Saved {0}".format(file_name))
+        else:
+            print("Skipping {0} - already downloaded.".format(file_name))
     elif output_file:
         output_file.write(gpg)
     else:
@@ -37,7 +42,7 @@ def main():
         if not projects:
             break
         for project in projects:
-            gpg_out(get_gpg(project), args.isolate_files, project)
+            gpg_out(args.isolate_files, project)
         _offset += _limit
 
 parser = argparse.ArgumentParser(description='Download GPG keys for COPR projects.', formatter_class=RawTextHelpFormatter)
@@ -63,4 +68,7 @@ if args.file:
     output_file = open(args.file, 'w')
 else:
     output_file = None
-main()
+try:
+    main()
+except KeyboardInterrupt as e:
+    pass
