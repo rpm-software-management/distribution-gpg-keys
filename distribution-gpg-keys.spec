@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.8
+Version:	1.9
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,11 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Thu Dec 01 2016 Miroslav Suchý <msuchy@redhat.com> 1.9-1
+- add new copr keys
+- add Fedora 26 keys
+- add more CentOS 7 keys (aarch64, debug, SIGs, testing)
+
 * Mon Oct 24 2016 Miroslav Suchý <miroslav@suchy.cz> 1.8-1
 - update copr gpg keys
 - README.md: Indicate what keys are actually included
