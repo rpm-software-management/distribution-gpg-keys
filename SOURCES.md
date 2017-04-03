@@ -23,6 +23,8 @@ https://access.redhat.com/security/team/key
 ## RpmFusion
 
 http://rpmfusion.org/keys
+https://pkgs.rpmfusion.org/cgit/free/rpmfusion-free-release.git/tree/
+https://pkgs.rpmfusion.org/cgit/nonfree/rpmfusion-nonfree-release.git/tree/
 
 ## How to verify the GPG key
 
