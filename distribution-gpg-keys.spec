@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.10
+Version:	1.11
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,13 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Mon Apr 03 2017 Miroslav Suchý <msuchy@redhat.com> 1.11-1
+- update Copr keys
+- update source for rpmfusion
+- Update symlinks for rpmfusion lastest/rawhide
+- Add rpmfusion free/nonfree 27 keys
+- Add rpmfusion free/nonfree 26 keys
+
 * Thu Mar 16 2017 Miroslav Suchý <msuchy@redhat.com> 1.10-1
 - update COPR keys
 - add F27 key
