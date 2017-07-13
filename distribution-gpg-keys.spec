@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.11
+Version:	1.12
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,10 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Thu Jul 13 2017 Miroslav Suchý <msuchy@redhat.com> 1.12-1
+- update Copr keys
+- Update Red Hat Keys
+
 * Mon Apr 03 2017 Miroslav Suchý <msuchy@redhat.com> 1.11-1
 - update Copr keys
 - update source for rpmfusion
