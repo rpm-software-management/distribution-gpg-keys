@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.12
+Version:	1.13
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,11 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Mon Jul 31 2017 Miroslav Suchý <msuchy@redhat.com> 1.13-1
+- update Copr keys
+- add fedora modularity gpg key
+- add SCL SIG key
+
 * Thu Jul 13 2017 Miroslav Suchý <msuchy@redhat.com> 1.12-1
 - update Copr keys
 - Update Red Hat Keys
