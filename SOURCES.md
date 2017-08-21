@@ -26,6 +26,14 @@ http://rpmfusion.org/keys
 https://pkgs.rpmfusion.org/cgit/free/rpmfusion-free-release.git/tree/
 https://pkgs.rpmfusion.org/cgit/nonfree/rpmfusion-nonfree-release.git/tree/
 
+## Adobe
+
+https://get.adobe.com/cz/flashplayer/
+
+## Dropbox
+
+https://linux.dropbox.com/fedora/rpm-public-key.asc
+
 ## How to verify the GPG key
 
 Run `gpg --with-fingerprint key_file` and compare the output with fingerprints on pages above.
