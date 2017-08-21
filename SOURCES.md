@@ -30,6 +30,10 @@ https://pkgs.rpmfusion.org/cgit/nonfree/rpmfusion-nonfree-release.git/tree/
 
 https://get.adobe.com/cz/flashplayer/
 
+## CalcForge
+
+https://www.calcforge.org/RPM-GPG-KEY-calcforge
+
 ## Dell
 
 http://linux.dell.com/repo/hardware/dsu/public.key
@@ -58,4 +62,6 @@ https://www.virtualbox.org/download/oracle_vbox.asc
 
 Run `gpg --with-fingerprint key_file` and compare the output with fingerprints on pages above.
 
+## TODO
 
+Add more gpg keys from this list https://rpmfusion.org/FedoraThirdPartyRepos
