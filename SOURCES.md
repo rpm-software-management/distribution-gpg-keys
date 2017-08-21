@@ -50,6 +50,10 @@ https://apt.postgresql.org/pub/repos/yum/
 
 https://repo.skype.com/data/SKYPE-GPG-KEY
 
+## VirtualBox
+
+https://www.virtualbox.org/download/oracle_vbox.asc
+
 ## How to verify the GPG key
 
 Run `gpg --with-fingerprint key_file` and compare the output with fingerprints on pages above.
