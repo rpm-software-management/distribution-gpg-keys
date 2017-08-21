@@ -38,6 +38,10 @@ http://linux.dell.com/repo/hardware/dsu/public.key
 
 https://linux.dropbox.com/fedora/rpm-public-key.asc
 
+## Google
+
+https://dl-ssl.google.com/linux/linux_signing_key.pub
+
 ## How to verify the GPG key
 
 Run `gpg --with-fingerprint key_file` and compare the output with fingerprints on pages above.
