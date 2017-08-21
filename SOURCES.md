@@ -30,6 +30,10 @@ https://pkgs.rpmfusion.org/cgit/nonfree/rpmfusion-nonfree-release.git/tree/
 
 https://get.adobe.com/cz/flashplayer/
 
+## Dell
+
+http://linux.dell.com/repo/hardware/dsu/public.key
+
 ## Dropbox
 
 https://linux.dropbox.com/fedora/rpm-public-key.asc
