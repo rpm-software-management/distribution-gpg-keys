@@ -42,6 +42,10 @@ https://linux.dropbox.com/fedora/rpm-public-key.asc
 
 https://dl-ssl.google.com/linux/linux_signing_key.pub
 
+## Skype
+
+https://repo.skype.com/data/SKYPE-GPG-KEY
+
 ## How to verify the GPG key
 
 Run `gpg --with-fingerprint key_file` and compare the output with fingerprints on pages above.
