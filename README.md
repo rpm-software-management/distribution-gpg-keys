@@ -12,6 +12,19 @@ GPG keys used by various Linux distributions to sign packages.
  * Mageia
  * COPR repositories
 
+and for third parties repos:
+
+ * Adobe
+ * CalcForge
+ * Dell
+ * Dropbox
+ * Google
+ * JPackage
+ * PostgreSQL RPM Building Project
+ * Remi's
+ * Skype
+ * VirtualBox
+ 
 ## Releasing
 
 To get tar.gz:
