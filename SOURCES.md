@@ -46,6 +46,10 @@ https://linux.dropbox.com/fedora/rpm-public-key.asc
 
 https://dl-ssl.google.com/linux/linux_signing_key.pub
 
+## JPackage
+
+http://www.jpackage.org/jpackage.asc
+
 ## PostgreSQL RPM Building Project
 
 https://apt.postgresql.org/pub/repos/yum/
