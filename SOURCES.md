@@ -54,6 +54,10 @@ http://www.jpackage.org/jpackage.asc
 
 https://apt.postgresql.org/pub/repos/yum/
 
+## Remi's repositories
+
+http://rpms.remirepo.net/RPM-GPG-KEY-remi
+
 ## Skype
 
 https://repo.skype.com/data/SKYPE-GPG-KEY
