@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.13
+Version:	1.14
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,21 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Mon Aug 21 2017 Miroslav Suchý <msuchy@redhat.com> 1.14-1
+- update Copr keys
+- add remi's repository gpg key
+- add jpackage gpg key
+- add CalcForge gpg key
+- add virtualbox gpg key
+- add PostgreSQL RPM Building Project gpg keys
+- add Skype gpg key
+- add Google gpg key
+- add dell public key
+- add RPM-GPG-KEY-adobe-linux
+- add Dropbox gpg key
+- add RPM-GPG-KEY-fedora-28-primary
+- add rpmfusion 28
+
 * Mon Jul 31 2017 Miroslav Suchý <msuchy@redhat.com> 1.13-1
 - update Copr keys
 - add fedora modularity gpg key
