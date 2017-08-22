@@ -57,6 +57,7 @@ https://apt.postgresql.org/pub/repos/yum/
 ## Remi's repositories
 
 http://rpms.remirepo.net/RPM-GPG-KEY-remi
+https://git.remirepo.net/cgit/rpms/remi-release.git/plain/RPM-GPG-KEY-remi2017
 
 ## Skype
 
