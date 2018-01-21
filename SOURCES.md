@@ -64,6 +64,10 @@ https://git.remirepo.net/cgit/rpms/remi-release.git/plain/RPM-GPG-KEY-remi2018
 
 https://repo.skype.com/data/SKYPE-GPG-KEY
 
+## UnitedRPMs
+
+https://github.com/UnitedRPMs/unitedrpms/blob/master/URPMS-GPG-PUBLICKEY-Fedora-24
+
 ## VirtualBox
 
 https://www.virtualbox.org/download/oracle_vbox.asc
