@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.18
+Version:	1.19
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,9 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Wed Feb 21 2018 Miroslav Suchý <msuchy@redhat.com> 1.19-1
+- update copr keys
+
 * Sun Jan 21 2018 Miroslav Suchý <msuchy@redhat.com> 1.18-1
 - add UnitedRPMs
 - Add remi 2018 key
