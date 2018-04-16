@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.19
+Version:	1.20
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,13 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Mon Apr 16 2018 Miroslav Suchý <msuchy@redhat.com> 1.20-1
+- add scientific linux key
+- update copr keys
+- add Fedora 29 key
+- Update keys for rpmfusion
+- Add rpmfusion f29 f30 keys for free nonfree
+
 * Wed Feb 21 2018 Miroslav Suchý <msuchy@redhat.com> 1.19-1
 - update copr keys
 
