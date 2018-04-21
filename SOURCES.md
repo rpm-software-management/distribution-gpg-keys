@@ -20,6 +20,10 @@ cd keys/copr && ../../copr-gpg-download.py --isolate-files
 
 https://access.redhat.com/security/team/key
 
+## openSUSE
+
+https://build.opensuse.org/projects/openSUSE:Factory/public_key
+
 ## RpmFusion
 
 http://rpmfusion.org/keys
