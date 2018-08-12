@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.21
+Version:	1.22
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,10 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Sun Aug 12 2018 Miroslav Suchý <msuchy@redhat.com> 1.22-1
+- update copr keys
+- add fedora 30
+
 * Tue Apr 24 2018 Miroslav Suchý <msuchy@redhat.com> 1.21-1
 - Add openSUSE Package Signing Key
 
