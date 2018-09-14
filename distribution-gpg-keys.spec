@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.22
+Version:	1.23
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,10 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Fri Sep 14 2018 Miroslav Suchý <msuchy@redhat.com> 1.23-1
+- update copr keys
+- add rawhide as symlink to F30
+
 * Sun Aug 12 2018 Miroslav Suchý <msuchy@redhat.com> 1.22-1
 - update copr keys
 - add fedora 30
