@@ -14,7 +14,7 @@ http://mirrors.kernel.org/mageia/distrib/cauldron/x86_64/media/core/release/medi
 
 ## Copr
 
-cd keys/copr && ../../copr-gpg-download.py --isolate-files
+pushd keys/copr && ../../copr-gpg-download.py --isolate-files && popd
 
 ## Red Hat
 
