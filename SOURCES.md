@@ -81,6 +81,10 @@ https://github.com/UnitedRPMs/unitedrpms/blob/master/URPMS-GPG-PUBLICKEY-Fedora-
 
 https://www.virtualbox.org/download/oracle_vbox.asc
 
+## Microsoft
+
+https://packages.microsoft.com/keys/microsoft.asc
+
 ## How to verify the GPG key
 
 Run `gpg --with-fingerprint key_file` and compare the output with fingerprints on pages above.
