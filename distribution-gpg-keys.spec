@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.24
+Version:	1.25
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,11 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Thu Nov 15 2018 Miroslav Suchý <msuchy@redhat.com> 1.25-1
+- update copr keys
+- add RPM-GPG-KEY-redhat8-beta key
+- add RPM-GPG-KEY-redhat-auxiliary2
+
 * Thu Nov 08 2018 Miroslav Suchý <msuchy@redhat.com> 1.24-1
 - update Copr keys
 - add Microsoft key
