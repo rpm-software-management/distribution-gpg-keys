@@ -34,6 +34,10 @@ https://pkgs.rpmfusion.org/cgit/nonfree/rpmfusion-nonfree-release.git/tree/
 
 https://get.adobe.com/cz/flashplayer/
 
+## Brave
+
+https://brave-browser.readthedocs.io/en/latest/installing-brave.html#linux
+
 ## CalcForge
 
 https://www.calcforge.org/RPM-GPG-KEY-calcforge
