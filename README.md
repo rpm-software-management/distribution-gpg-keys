@@ -4,22 +4,27 @@ GPG keys used by various Linux distributions to sign packages.
 
 ## Keys for
 
+ * COPR repositories
  * CentOS
  * EPEL
  * Fedora
- * Red Hat
- * RPM Fusion
  * Mageia
- * COPR repositories
+ * OpenSuse
+ * RPM Fusion
+ * Red Hat
+ * Scientific Linux
+ * United RPMs
 
 and for third parties repos:
 
  * Adobe
+ * Brave
  * CalcForge
  * Dell
  * Dropbox
  * Google
  * JPackage
+ * Microsoft
  * PostgreSQL RPM Building Project
  * Remi's
  * Skype
