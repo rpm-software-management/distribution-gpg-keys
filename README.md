@@ -29,7 +29,9 @@ and for third parties repos:
  * Remi's
  * Skype
  * VirtualBox
- 
+
+it intentionally does not include keys for Ubuntu as there exists the package `ubu-keyring`, for Debian as there exists the package `debian-keyring`, for ArchLinux as there exists the package `archlinux-keyrings`.
+
 ## Releasing
 
 To get tar.gz:
