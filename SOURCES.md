@@ -90,6 +90,10 @@ https://www.virtualbox.org/download/oracle_vbox.asc
 
 https://packages.microsoft.com/keys/microsoft.asc
 
+## Zimbra
+
+https://files.zimbra.com/downloads/security/public.key
+
 ## How to verify the GPG key
 
 Run `gpg --with-fingerprint key_file` and compare the output with fingerprints on pages above.
