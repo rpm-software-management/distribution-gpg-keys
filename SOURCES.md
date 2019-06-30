@@ -12,6 +12,10 @@ https://getfedora.org/en/keys/
 
 http://mirrors.kernel.org/mageia/distrib/cauldron/x86_64/media/core/release/media_info/pubkey
 
+## OpenMandriva
+
+https://raw.githubusercontent.com/OpenMandrivaAssociation/openmandriva-repos/master/RPM-GPG-KEY-OpenMandriva
+
 ## Copr
 
 pushd keys/copr && ../../copr-gpg-download.py --isolate-files && popd

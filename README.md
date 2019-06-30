@@ -9,6 +9,7 @@ GPG keys used by various Linux distributions to sign packages.
  * EPEL
  * Fedora
  * Mageia
+ * OpenMandriva
  * OpenSuse
  * RPM Fusion
  * Red Hat
