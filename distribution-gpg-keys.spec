@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.31
+Version:	1.32
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,11 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Mon Jul 08 2019 Miroslav Suchý <msuchy@redhat.com> 1.32-1
+- Update Copr keys
+- Add OpenMandriva package signing key
+- add Zimbra key
+
 * Thu May 16 2019 Miroslav Suchý <msuchy@redhat.com> 1.31-1
 - update Copr keys
 
