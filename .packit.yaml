@@ -1,5 +1,4 @@
-specfile_path:
-  - distribution-gpg-keys.spec
+specfile_path: distribution-gpg-keys.spec
 
 synced_files:
   # Copy a file from root of the upstream repo to dist-git.
@@ -8,14 +7,11 @@ synced_files:
   # `sync-from-downstream` command.
   - .packit.yaml
 
-upstream_project_name:
-  - distribution-gpg-keys
+upstream_project_name: distribution-gpg-keys
 
-downstream_package_name:
-  - distribution-gpg-keys
+downstream_package_name: distribution-gpg-keys
 
-create_tarball_command:
-  - tito build --test --tgz -o ./
+create_tarball_command: tito build --test --tgz -o ./
 
 jobs:
 - job: copr_build
