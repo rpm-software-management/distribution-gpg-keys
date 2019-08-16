@@ -100,7 +100,7 @@ https://files.zimbra.com/downloads/security/public.key
 
 ## How to verify the GPG key
 
-Run `gpg --with-fingerprint key_file` and compare the output with fingerprints on pages above.
+Run `gpg2 key_file` and compare the output with fingerprints on pages above.
 
 ## TODO
 
