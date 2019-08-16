@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.32
+Version:	1.33
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,11 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Fri Aug 16 2019 Miroslav Suchý <msuchy@redhat.com> 1.33-1
+- add EPEL-8
+- add CentOS 8 keys
+- add Fedora 32 key
+
 * Mon Jul 08 2019 Miroslav Suchý <msuchy@redhat.com> 1.32-1
 - Update Copr keys
 - Add OpenMandriva package signing key
