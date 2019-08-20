@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.33
+Version:	1.34
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,11 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Tue Aug 20 2019 Miroslav Suchý <msuchy@redhat.com> 1.34-1
+- update copr keys
+- fix whitespace error in fedora-32 key (rhbz#1743422)
+- Add RPM Fusion keys for fedora 32
+
 * Fri Aug 16 2019 Miroslav Suchý <msuchy@redhat.com> 1.33-1
 - add EPEL-8
 - add CentOS 8 keys
