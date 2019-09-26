@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.34
+Version:	1.35
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,10 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Thu Sep 26 2019 Miroslav Suchý <msuchy@redhat.com> 1.35-1
+- update copr keys
+- Add key for Amazon Linux 2
+
 * Tue Aug 20 2019 Miroslav Suchý <msuchy@redhat.com> 1.34-1
 - update copr keys
 - fix whitespace error in fedora-32 key (rhbz#1743422)
