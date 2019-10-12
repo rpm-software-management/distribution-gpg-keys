@@ -25,6 +25,7 @@ and for third parties repos:
  * Dell
  * Dropbox
  * Google
+ * IUS
  * JPackage
  * Microsoft
  * PostgreSQL RPM Building Project
