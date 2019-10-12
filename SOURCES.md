@@ -62,6 +62,11 @@ https://linux.dropbox.com/fedora/rpm-public-key.asc
 
 https://dl-ssl.google.com/linux/linux_signing_key.pub
 
+## IUS
+
+https://repo.ius.io/RPM-GPG-KEY-IUS-6
+https://repo.ius.io/RPM-GPG-KEY-IUS-7
+
 ## JPackage
 
 http://www.jpackage.org/jpackage.asc
