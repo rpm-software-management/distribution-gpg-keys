@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.35
+Version:	1.36
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,11 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Wed Jan 29 2020 Miroslav Suchý <msuchy@redhat.com> 1.36-1
+- update copr keys
+- add Fedora 33 gpg key
+- Add keys for IUS repository (https://ius.io)
+
 * Thu Sep 26 2019 Miroslav Suchý <msuchy@redhat.com> 1.35-1
 - update copr keys
 - Add key for Amazon Linux 2
