@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.36
+Version:	1.37
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,12 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Tue Feb 18 2020 Miroslav Suchý <msuchy@redhat.com> 1.37-1
+- update copr keys
+- f29 is eoled
+- Symlink Rawhide to Fedora 33 key
+- Add remi 2020 key
+
 * Wed Jan 29 2020 Miroslav Suchý <msuchy@redhat.com> 1.36-1
 - update copr keys
 - add Fedora 33 gpg key
