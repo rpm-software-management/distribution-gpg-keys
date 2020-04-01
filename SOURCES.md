@@ -46,6 +46,10 @@ https://get.adobe.com/cz/flashplayer/
 
 https://brave-browser.readthedocs.io/en/latest/installing-brave.html#linux
 
+## BlueJeans
+
+https://www.bluejeans.com/downloads
+
 ## CalcForge
 
 https://www.calcforge.org/RPM-GPG-KEY-calcforge
