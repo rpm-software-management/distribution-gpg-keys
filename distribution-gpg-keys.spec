@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.37
+Version:	1.38
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,13 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Tue Apr 21 2020 Miroslav Suchý <miroslav@suchy.cz> 1.38-1
+- update copr keys
+- add mysql gpg key
+- add BlueJeans key
+- Add symlink from CentOS 8 to CentOS Official key
+- add remi 2020 key and update for f32 branch
+
 * Tue Feb 18 2020 Miroslav Suchý <msuchy@redhat.com> 1.37-1
 - update copr keys
 - f29 is eoled
