@@ -75,6 +75,10 @@ https://repo.ius.io/RPM-GPG-KEY-IUS-7
 
 http://www.jpackage.org/jpackage.asc
 
+## MySQL
+
+https://repo.mysql.com/RPM-GPG-KEY-mysql
+
 ## PostgreSQL RPM Building Project
 
 https://apt.postgresql.org/pub/repos/yum/
