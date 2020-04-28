@@ -16,6 +16,10 @@ http://mirrors.kernel.org/mageia/distrib/cauldron/x86_64/media/core/release/medi
 
 https://raw.githubusercontent.com/OpenMandrivaAssociation/openmandriva-repos/master/RPM-GPG-KEY-OpenMandriva
 
+## RosaLinux
+
+https://abf.io/import/rosa-repos/raw/rosa2019.1/RPM-GPG-KEY-ROSA
+
 ## Copr
 
 pushd keys/copr && ../../copr-gpg-download.py --isolate-files && popd
