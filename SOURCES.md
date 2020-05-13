@@ -75,6 +75,10 @@ https://dl-ssl.google.com/linux/linux_signing_key.pub
 https://repo.ius.io/RPM-GPG-KEY-IUS-6
 https://repo.ius.io/RPM-GPG-KEY-IUS-7
 
+## Intel
+
+https://yum.repos.intel.com/intel-gpg-keys/GPG-PUB-KEY-INTEL-SW-PRODUCTS-2019.PUB
+
 ## JPackage
 
 http://www.jpackage.org/jpackage.asc
