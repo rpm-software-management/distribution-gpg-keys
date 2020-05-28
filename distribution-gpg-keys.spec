@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.38
+Version:	1.39
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,11 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Thu May 28 2020 Miroslav Suchý <msuchy@redhat.com> 1.39-1
+- update copr keys
+- add intel gpg key
+- add RosaLinux GPG keyring
+
 * Tue Apr 21 2020 Miroslav Suchý <miroslav@suchy.cz> 1.38-1
 - update copr keys
 - add mysql gpg key
