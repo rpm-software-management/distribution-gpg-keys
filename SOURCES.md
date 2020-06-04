@@ -20,6 +20,10 @@ https://raw.githubusercontent.com/OpenMandrivaAssociation/openmandriva-repos/mas
 
 https://abf.io/import/rosa-repos/raw/rosa2019.1/RPM-GPG-KEY-ROSA
 
+## EuroLinux
+
+https://euro-linux.com/product-signing-keys/
+
 ## Copr
 
 pushd keys/copr && ../../copr-gpg-download.py --isolate-files && popd

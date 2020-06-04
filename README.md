@@ -8,6 +8,7 @@ GPG keys used by various Linux distributions to sign packages.
  * COPR repositories
  * CentOS
  * EPEL
+ * EuroLinux
  * Fedora
  * Mageia
  * OpenMandriva
