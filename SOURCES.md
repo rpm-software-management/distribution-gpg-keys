@@ -62,6 +62,11 @@ https://www.bluejeans.com/downloads
 
 https://www.calcforge.org/RPM-GPG-KEY-calcforge
 
+## Datto
+
+https://cpkg.datto.com/DATTO-PKGS-GPG-KEY
+https://cpkg.datto.com/DATTO-LEGACYDIST-PKGS-GPG-KEY
+
 ## Dell
 
 http://linux.dell.com/repo/hardware/dsu/public.key
