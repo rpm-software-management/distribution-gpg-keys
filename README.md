@@ -24,6 +24,7 @@ and for third parties repos:
  * Adobe
  * Brave
  * CalcForge
+ * Datto
  * Dell
  * Dropbox
  * Google
