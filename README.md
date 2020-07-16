@@ -12,8 +12,9 @@ GPG keys used by various Linux distributions to sign packages.
  * Fedora
  * Mageia
  * OpenMandriva
- * RosaLinux
  * OpenSuse
+ * Qubes
+ * RosaLinux
  * RPM Fusion
  * Red Hat
  * Scientific Linux

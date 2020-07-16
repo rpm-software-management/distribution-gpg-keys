@@ -100,6 +100,10 @@ https://repo.mysql.com/RPM-GPG-KEY-mysql
 
 https://apt.postgresql.org/pub/repos/yum/
 
+## Qubes' repositories
+
+https://keys.qubes-os.org/keys/
+
 ## Remi's repositories
 
 https://git.remirepo.net/cgit/rpms/remi-release.git/plain/RPM-GPG-KEY-remi
