@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.40
+Version:	1.41
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,11 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Thu Aug 06 2020 Miroslav Suchý <msuchy@redhat.com> 1.41-1
+- add Fedora 34 key
+- update copr keys
+- add Qubes signing keys
+
 * Mon Jul 13 2020 Miroslav Suchý <msuchy@redhat.com> 1.40-1
 - update copr keys
 - Add Datto's third party repository GPG keys
