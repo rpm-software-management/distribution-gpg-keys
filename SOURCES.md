@@ -40,6 +40,14 @@ https://build.opensuse.org/projects/openSUSE:Factory/public_key
 
 https://cdn.amazonlinux.com/_assets/11CF1F95C87F5B1A.asc
 
+## Oracle Linux
+
+https://yum.oracle.com/RPM-GPG-KEY-oracle-el4
+https://yum.oracle.com/RPM-GPG-KEY-oracle-el5
+https://yum.oracle.com/RPM-GPG-KEY-oracle-ol6
+https://yum.oracle.com/RPM-GPG-KEY-oracle-ol7
+https://yum.oracle.com/RPM-GPG-KEY-oracle-ol8
+
 ## RpmFusion
 
 http://rpmfusion.org/keys
@@ -136,6 +144,7 @@ https://packages.microsoft.com/keys/microsoft.asc
 ## Zimbra
 
 https://files.zimbra.com/downloads/security/public.key
+
 
 ## How to verify the GPG key
 
