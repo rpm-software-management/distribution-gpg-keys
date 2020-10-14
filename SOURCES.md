@@ -96,6 +96,10 @@ http://www.jpackage.org/jpackage.asc
 
 https://repo.mysql.com/RPM-GPG-KEY-mysql
 
+## Oracle Linux
+
+see bottom of https://yum.oracle.com/faq.html
+
 ## PostgreSQL RPM Building Project
 
 https://apt.postgresql.org/pub/repos/yum/
