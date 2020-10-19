@@ -141,6 +141,10 @@ https://packages.microsoft.com/keys/microsoft.asc
 
 https://files.zimbra.com/downloads/security/public.key
 
+## Zoom
+
+https://zoom.us/linux/download/pubkey
+
 ## How to verify the GPG key
 
 Run `gpg2 key_file` and compare the output with fingerprints on pages above.
