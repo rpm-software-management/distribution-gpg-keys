@@ -46,6 +46,12 @@ it intentionally does not include keys for Ubuntu as there exists the package `u
 
 For up to date list of keys see [SOURCES.md](SOURCES.md).
 
+## Downstream packaging
+
+If you are going to package this project, then consider packaging Copr keys as subpackage as it is quite big.
+
+This project is available as a package in Fedora, EPEL, openSUSE, archLinux, Mageia, OpenMandriva.
+
 ## Releasing
 
 To get tar.gz:
