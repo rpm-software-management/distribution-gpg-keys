@@ -13,6 +13,7 @@ GPG keys used by various Linux distributions to sign packages.
  * Mageia
  * OpenMandriva
  * OpenSuse
+ * Oracle Linux
  * Qubes
  * RosaLinux
  * RPM Fusion
@@ -24,6 +25,7 @@ and for third parties repos:
 
  * Adobe
  * Brave
+ * BlueJeans
  * CalcForge
  * Datto
  * Dell
@@ -36,8 +38,13 @@ and for third parties repos:
  * Remi's
  * Skype
  * VirtualBox
+ * Zimbra
+ * Zoom
+
 
 it intentionally does not include keys for Ubuntu as there exists the package `ubu-keyring`, for Debian as there exists the package `debian-keyring`, for ArchLinux as there exists the package `archlinux-keyrings`.
+
+For up to date list of keys see [SOURCES.md](SOURCES.md).
 
 ## Releasing
 
