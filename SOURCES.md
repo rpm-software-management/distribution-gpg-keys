@@ -115,6 +115,7 @@ https://git.remirepo.net/cgit/rpms/remi-release.git/plain/RPM-GPG-KEY-remi2017
 https://git.remirepo.net/cgit/rpms/remi-release.git/plain/RPM-GPG-KEY-remi2018
 https://git.remirepo.net/cgit/rpms/remi-release.git/plain/RPM-GPG-KEY-remi2019
 https://git.remirepo.net/cgit/rpms/remi-release.git/plain/RPM-GPG-KEY-remi2020
+https://git.remirepo.net/cgit/rpms/remi-release.git/plain/RPM-GPG-KEY-remi2021
 
 ## Scientific Linux
 
