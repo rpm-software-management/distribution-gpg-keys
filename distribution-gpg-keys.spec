@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.47
+Version:	1.48
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,10 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Fri Feb 05 2021 Miroslav Suchý <msuchy@redhat.com> 1.48-1
+- add Fedora 35
+- update copr keys
+
 * Mon Jan 18 2021 Miroslav Suchý <msuchy@redhat.com> 1.47-1
 - update copr keys
 - add Remi 2021 key
