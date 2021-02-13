@@ -5,6 +5,7 @@ GPG keys used by various Linux distributions to sign packages.
 ## Keys for
 
  * Amazon Linux
+ * Alma Linux
  * COPR repositories
  * CentOS
  * EPEL

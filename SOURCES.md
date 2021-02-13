@@ -50,6 +50,10 @@ https://pkgs.rpmfusion.org/cgit/nonfree/rpmfusion-nonfree-release.git/tree/
 
 https://get.adobe.com/cz/flashplayer/
 
+## Alma Linux
+
+https://repo.almalinux.org/almalinux/RPM-GPG-KEY-AlmaLinux
+
 ## Brave
 
 https://brave-browser.readthedocs.io/en/latest/installing-brave.html#linux
