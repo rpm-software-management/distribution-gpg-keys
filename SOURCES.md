@@ -100,6 +100,10 @@ https://yum.repos.intel.com/intel-gpg-keys/GPG-PUB-KEY-INTEL-SW-PRODUCTS-2019.PU
 
 http://www.jpackage.org/jpackage.asc
 
+## MariaDB
+
+https://mariadb.org/download/
+
 ## MySQL
 
 https://repo.mysql.com/RPM-GPG-KEY-mysql

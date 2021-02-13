@@ -34,6 +34,8 @@ and for third parties repos:
  * Google
  * IUS
  * JPackage
+ * MariaDB
+ * MySQL
  * Microsoft
  * PostgreSQL RPM Building Project
  * Remi's
