@@ -43,7 +43,9 @@ https://cdn.amazonlinux.com/_assets/11CF1F95C87F5B1A.asc
 ## RpmFusion
 
 http://rpmfusion.org/keys
+
 https://pkgs.rpmfusion.org/cgit/free/rpmfusion-free-release.git/tree/
+
 https://pkgs.rpmfusion.org/cgit/nonfree/rpmfusion-nonfree-release.git/tree/
 
 ## Adobe
@@ -69,6 +71,7 @@ https://www.calcforge.org/RPM-GPG-KEY-calcforge
 ## Datto
 
 https://cpkg.datto.com/DATTO-PKGS-GPG-KEY
+
 https://cpkg.datto.com/DATTO-LEGACYDIST-PKGS-GPG-KEY
 
 ## Dell
@@ -86,6 +89,7 @@ https://dl-ssl.google.com/linux/linux_signing_key.pub
 ## IUS
 
 https://repo.ius.io/RPM-GPG-KEY-IUS-6
+
 https://repo.ius.io/RPM-GPG-KEY-IUS-7
 
 ## Intel
@@ -115,15 +119,21 @@ https://keys.qubes-os.org/keys/
 ## Remi's repositories
 
 https://git.remirepo.net/cgit/rpms/remi-release.git/plain/RPM-GPG-KEY-remi
+
 https://git.remirepo.net/cgit/rpms/remi-release.git/plain/RPM-GPG-KEY-remi2017
+
 https://git.remirepo.net/cgit/rpms/remi-release.git/plain/RPM-GPG-KEY-remi2018
+
 https://git.remirepo.net/cgit/rpms/remi-release.git/plain/RPM-GPG-KEY-remi2019
+
 https://git.remirepo.net/cgit/rpms/remi-release.git/plain/RPM-GPG-KEY-remi2020
+
 https://git.remirepo.net/cgit/rpms/remi-release.git/plain/RPM-GPG-KEY-remi2021
 
 ## Scientific Linux
 
 http://ftp1.scientificlinux.org/linux/scientific/7x/x86_64/os/RPM-GPG-KEY-sl
+
 http://ftp1.scientificlinux.org/linux/scientific/7x/x86_64/os/RPM-GPG-KEY-sl7
 
 ## Skype
