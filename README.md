@@ -49,7 +49,7 @@ For up to date list of keys see [SOURCES.md](SOURCES.md).
 
 ## Storing keys in DNS
 
-If you are owner of the GPG key, you can [generate TYPE 61 DNS records]http://miroslav.suchy.cz/blog/archives/2021/02/13/how_to_generate_openpgp_record_for_dns_type61/index.html) and clients [can verify it using DNSSEC](http://miroslav.suchy.cz/blog/archives/2021/02/11/verify_package_gpg_signature_using_dnssec/index.html).
+If you are owner of the GPG key, you can [generate TYPE 61 DNS records](http://miroslav.suchy.cz/blog/archives/2021/02/13/how_to_generate_openpgp_record_for_dns_type61/index.html) and clients [can verify it using DNSSEC](http://miroslav.suchy.cz/blog/archives/2021/02/11/verify_package_gpg_signature_using_dnssec/index.html).
 
 The following distribution offers keys in DNS and secure them using DNSSEC:
 
