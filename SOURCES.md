@@ -96,6 +96,8 @@ https://repo.ius.io/RPM-GPG-KEY-IUS-7
 
 https://yum.repos.intel.com/intel-gpg-keys/GPG-PUB-KEY-INTEL-SW-PRODUCTS-2019.PUB
 
+https://www.intel.com/content/www/us/en/security-center/pgp-public-key.html
+
 ## JPackage
 
 http://www.jpackage.org/jpackage.asc
