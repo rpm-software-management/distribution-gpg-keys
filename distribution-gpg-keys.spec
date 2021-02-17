@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.49
+Version:	1.50
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,9 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Wed Feb 17 2021 Miroslav Suchý <msuchy@redhat.com> 1.50-1
+- Add symlinks for F35
+
 * Wed Feb 17 2021 Miroslav Suchý <msuchy@redhat.com> 1.49-1
 - update copr keys
 - add mariadb key
