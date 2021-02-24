@@ -1,0 +1,26 @@
+Here we go, this needs to go into a file called :
+
+RPM-GPG-KEY-CentOS-SIG-NFV
+
+Brian, can you work with Jim to get this on the website as well please ?
+
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+Version: GnuPG v2.0.22 (GNU/Linux)
+
+mQENBFqMVyYBCACriP6iaXy1GtYgrueyz3U+GmNvNrnugEUAeWicotKvmlqjUKqs
+s5N+Zr9yjAuwPjruywNVxuhRxTdyvU0PMMh7ZMkeWtJ26GWuCmN9Wf3rU5I2Eljh
+nzulf06q8E1zYLtggHfk6FOP+lYloCOPZys6BCxeWA8MvRfhbspI0pIhnnIFwHYe
+71K/ljyfoAsth/WC5kZnqj0LpJRVmp2kooS79LSC1DXTATaaU0RCSY5xINMTjrmD
+6yA6GwRoAUu3y1IF02jI2Q3NoOht7GtYXDuAr+MaRJBI1oXr2uAbu4Frvcx3zHAy
+CRbngZNnbh/kssAvAoEHev/qkhVhvbIwVuizABEBAAG0V0NlbnRPUyBORlYgU0lH
+IChodHRwczovL3dpa2kuY2VudG9zLm9yZy9TcGVjaWFsSW50ZXJlc3RHcm91cC9O
+RlYpIDxzZWN1cml0eUBjZW50b3Mub3JnPokBOQQTAQIAIwUCWoxXJgIbAwcLCQgH
+AwIBBhUIAgkKCwQWAgMBAh4BAheAAAoJECFGXiidKnanhrwH/2FOV18yEFpIIps9
+4GoAaLNtxdLEPbgLuKdu01x1ate2pv3yPQoewmI/AdxBItIA0uqeMX/XPGdBwvAD
+1lPqpOtDBlaay12EeOTyhxKdTQdkW3Sb1Yhoj01qfNEEm3kaOiHDvIZHqxmj4OfP
+K20hhI0pw2qm2JMsRtuLBgHo+rUP7gOHy7jbA1kvTc0lkpcQzTKgXM13L1l7tKXm
+U8P7FKRKKG49IFQXtsbx1lW/vr2phzKVL93xQKeqEy5PauvZr+rIl8LNSVdoBEHc
+y6f4nNlCyG0G2ZTe68vf4D9cFtITB/ZR6+/hp+2VT7ivT/hj+8721G900P3KjgA+
++TXPsDw=
+=B5Lp
+-----END PGP PUBLIC KEY BLOCK-----
