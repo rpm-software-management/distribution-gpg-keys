@@ -60,6 +60,7 @@ Here is overview of availability of DNS entries for GPG keys:
 | Fedora   | :heavy_check_mark: | :heavy_check_mark: |
 | Epel     | :heavy_check_mark: | :heavy_check_mark: |
 | Red Hat  | requested          | :x: |
+| CentOS   | requested          | :x: |
 | OpenSuse | requested          | :x: |
 | RPM Fusion | requested        | :x: |
 | Dropbox    | requested        | :x: |
