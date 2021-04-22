@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.51
+Version:	1.52
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,9 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Thu Apr 22 2021 Miroslav Suchý <msuchy@redhat.com> 1.52-1
+- update copr keys
+
 * Mon Mar 01 2021 Miroslav Suchý <msuchy@redhat.com> 1.51-1
 - update copr keys
 - Add missing CentOS SIG keys
