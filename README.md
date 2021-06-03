@@ -61,7 +61,7 @@ Here is overview of availability of DNS entries for GPG keys:
 | Epel     | :heavy_check_mark: | :heavy_check_mark: |
 | Red Hat  | requested          | :x: |
 | CentOS   | requested          | :x: |
-| OpenSuse | requested          | :x: |
+| OpenSuse | :heavy_check_mark:          | :heavy_check_mark: |
 | RPM Fusion | requested        | :x: |
 | Dropbox    | requested        | :x: |
 
