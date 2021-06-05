@@ -36,6 +36,8 @@ https://access.redhat.com/security/team/key
 
 https://build.opensuse.org/projects/openSUSE:Factory/public_key
 
+https://build.opensuse.org/projects/openSUSE:Backports/public_key
+
 ## SUSE
 
 https://www.suse.com/support/security/keys/
