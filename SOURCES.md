@@ -36,6 +36,10 @@ https://access.redhat.com/security/team/key
 
 https://build.opensuse.org/projects/openSUSE:Factory/public_key
 
+## SUSE
+
+https://www.suse.com/support/security/keys/
+
 ## Amazon Linux
 
 https://cdn.amazonlinux.com/_assets/11CF1F95C87F5B1A.asc
