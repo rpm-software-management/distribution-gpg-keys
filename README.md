@@ -62,7 +62,7 @@ Here is overview of availability of DNS entries for GPG keys:
 | Red Hat  | :heavy_check_mark: | :x: |
 | CentOS   | requested          | :x: |
 | OpenSuse | :heavy_check_mark:          | :heavy_check_mark: |
-| RPM Fusion | requested        | :x: |
+| RPM Fusion | [requested](https://bugzilla.rpmfusion.org/show_bug.cgi?id=5927)        | :x: |
 | Dropbox    | requested        | :x: |
 
 The keys can be fetched using `resolvectl openpgp EMAIL`. e.g. `resolvectl openpgp security@redhat.com`
