@@ -16,6 +16,7 @@ GPG keys used by various Linux distributions to sign packages.
  * OpenSuse
  * Oracle Linux
  * Qubes
+ * Rocky Linux
  * RosaLinux
  * RPM Fusion
  * Red Hat
