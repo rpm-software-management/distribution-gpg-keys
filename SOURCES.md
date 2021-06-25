@@ -142,6 +142,10 @@ https://git.remirepo.net/cgit/rpms/remi-release.git/plain/RPM-GPG-KEY-remi2020
 
 https://git.remirepo.net/cgit/rpms/remi-release.git/plain/RPM-GPG-KEY-remi2021
 
+## Rocky Linux
+
+https://dl.rockylinux.org/pub/rocky/8/BaseOS/x86_64/os/RPM-GPG-KEY-rockyofficial
+
 ## Scientific Linux
 
 http://ftp1.scientificlinux.org/linux/scientific/7x/x86_64/os/RPM-GPG-KEY-sl
