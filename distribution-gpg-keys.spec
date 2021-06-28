@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.54
+Version:	1.55
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,10 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Mon Jun 28 2021 Miroslav Suchý <msuchy@redhat.com> 1.55-1
+- update copr keys
+- Add Rocky Linux Keys
+
 * Mon Jun 07 2021 Miroslav Suchý <msuchy@redhat.com> 1.54-1
 - update copr keys
 - Add openSUSE Backports OBS project key
