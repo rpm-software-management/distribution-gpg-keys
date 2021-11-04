@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.59
+Version:	1.60
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,10 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Thu Nov 04 2021 Miroslav Suchý <msuchy@redhat.com> 1.60-1
+- update copr keys
+- Add Navy Linux RPM GPG official key
+
 * Wed Oct 27 2021 Miroslav Suchý <msuchy@redhat.com> 1.59-1
 - update copr keys
 - Add EPEL9 key
