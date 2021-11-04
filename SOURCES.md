@@ -32,6 +32,10 @@ pushd keys/copr && ../../copr-gpg-download.py --isolate-files && popd
 
 https://access.redhat.com/security/team/key
 
+## Navy Linux
+
+https://cdn.navylinux.org/RPM-GPG-KEY-navy-linux-official
+
 ## openSUSE
 
 https://build.opensuse.org/projects/openSUSE:Factory/public_key

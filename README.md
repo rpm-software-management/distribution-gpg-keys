@@ -20,6 +20,7 @@ GPG keys used by various Linux distributions to sign packages.
  * RosaLinux
  * RPM Fusion
  * Red Hat
+ * Navy Linux
  * Scientific Linux
  * United RPMs
 
