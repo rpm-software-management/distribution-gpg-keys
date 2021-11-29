@@ -69,6 +69,10 @@ Here is overview of availability of DNS entries for GPG keys:
 
 The keys can be fetched using `resolvectl openpgp EMAIL`. e.g. `resolvectl openpgp security@redhat.com`
 
+## Packaging status
+ 
+![distribution-gpg-keys versions](https://repology.org/badge/vertical-allrepos/distribution-gpg-keys.svg?exclude_unsupported=1&header=distribution-gpg-keys)
+
 ## Downstream packaging
 
 If you are going to package this project, then consider packaging Copr keys as subpackage as it is quite big.
