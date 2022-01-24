@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.61
+Version:	1.62
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,10 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Mon Jan 24 2022 Miroslav Suchý <msuchy@redhat.com> 1.62-1
+- add Fedora 37
+- update copr keys
+
 * Thu Jan 20 2022 Miroslav Suchý <msuchy@redhat.com> 1.61-1
 - add new MySQL key
 - update copr keys
