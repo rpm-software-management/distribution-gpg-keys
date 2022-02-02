@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.63
+Version:	1.64
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,9 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Wed Feb 02 2022 Pavel Raiskup <praiskup@redhat.com> 1.64-1
+- move Fedora Rawhide key to F37
+
 * Wed Feb 02 2022 Pavel Raiskup <praiskup@redhat.com> 1.63-1
 - Add EuroLinux 9 key
 - Add CentOS Extras SIG key
