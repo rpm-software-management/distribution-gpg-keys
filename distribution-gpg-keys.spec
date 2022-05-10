@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.69
+Version:	1.70
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,11 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Tue May 10 2022 Miroslav Suchý <msuchy@redhat.com> 1.70-1
+- update copr keys
+- Add RHEL9 keys
+- Add RPM Fusion keys for Fedora 38
+
 * Mon May 02 2022 Miroslav Suchý <msuchy@redhat.com> 1.69-1
 - update copr keys
 - Add RPM Fusion keys for EL 9
