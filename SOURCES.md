@@ -62,9 +62,11 @@ https://pkgs.rpmfusion.org/cgit/nonfree/rpmfusion-nonfree-release.git/tree/
 
 https://get.adobe.com/cz/flashplayer/
 
-## Alma Linux
+## AlmaLinux
 
-https://repo.almalinux.org/almalinux/RPM-GPG-KEY-AlmaLinux
+https://repo.almalinux.org/almalinux/RPM-GPG-KEY-AlmaLinux-8
+
+https://repo.almalinux.org/almalinux/RPM-GPG-KEY-AlmaLinux-9
 
 ## Brave
 
