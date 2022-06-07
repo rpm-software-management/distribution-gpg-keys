@@ -80,6 +80,10 @@ https://www.bluejeans.com/downloads
 
 https://www.calcforge.org/RPM-GPG-KEY-calcforge
 
+## Circle Linux
+
+https://mirror.cclinux.org/pub/circle/8/RPM-GPG-KEY-circleofficial
+
 ## Datto
 
 https://cpkg.datto.com/DATTO-PKGS-GPG-KEY
