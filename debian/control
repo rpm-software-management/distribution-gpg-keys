@@ -1,0 +1,30 @@
+Source: distribution-gpg-keys
+Section: misc
+Priority: optional
+Maintainer: Miroslav Suchý <msuchy@redhat.com>
+# don't forget you have to change the version of debhelper according to the system where you compile the package
+# also remember that some older version uses debhelper and not debhelper-compat
+# to know your version of debhelper
+# quite simply
+# apt-get -y install debhelper
+# and those even if the package and already installed would get you a response like this
+# debhelper is already the newest version (13.6ubuntu1).
+# here the version is 13.6 so we put 13
+Build-Depends: debhelper-compat (= 13), coreutils
+Standards-Version: 4.6.0
+Homepage: https://github.com/xsuchy/distribution-gpg-keys/
+Vcs-Browser: https://github.com/xsuchy/distribution-gpg-keys/
+Vcs-Git: https://github.com/xsuchy/distribution-gpg-keys.git
+Rules-Requires-Root: no
+
+Package: distribution-gpg-keys
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Recommends: ubutun-keyring, ubutun-archive-keyring, debian-keyring, distribution-gpg-keys-copr
+Description: GPG keys used by various Linux distributions to sign packages.
+
+
+Package: distribution-gpg-keys-copr
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: GPG keys used by Copr projects.
