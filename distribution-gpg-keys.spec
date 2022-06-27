@@ -196,7 +196,7 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 - add intel gpg key
 - add RosaLinux GPG keyring
 
-* Tue Apr 21 2020 Miroslav Suchý <miroslav@suchy.cz> 1.38-1
+* Tue Apr 21 2020 Miroslav Suchý <msuchy@redhat.com> 1.38-1
 - update copr keys
 - add mysql gpg key
 - add BlueJeans key
@@ -343,7 +343,7 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 - add Fedora 26 keys
 - add more CentOS 7 keys (aarch64, debug, SIGs, testing)
 
-* Mon Oct 24 2016 Miroslav Suchý <miroslav@suchy.cz> 1.8-1
+* Mon Oct 24 2016 Miroslav Suchý <msuchy@redhat.com> 1.8-1
 - update copr gpg keys
 - README.md: Indicate what keys are actually included
 - add rpmfusion F19 keys
