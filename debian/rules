@@ -1,0 +1,49 @@
+#!/usr/bin/make -f
+%:
+        dh $@
+override_dh_auto_install:
+		install -d debian/distribution-gpg-keys/usr/share/distribution-gpg-keys/
+		install -d debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/
+		cp -R keys/* debian/distribution-gpg-keys/usr/share/distribution-gpg-keys/
+		rm -rf debian/distribution-gpg-keys/usr/share/distribution-gpg-keys/copr/
+		cp -R keys/* debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/adobe
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/alma
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/amazon-linux
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/bluejeans
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/brave
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/calcforge
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/centos
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/circle
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/datto
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/dell
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/dropbox
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/epel
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/eurolinux
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/fedora
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/google
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/intel
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/ius
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/jpackage
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/mageia
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/mariadb
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/microsoft
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/mysql
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/navy
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/openmandriva
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/opensuse
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/oraclelinux
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/postgresql
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/qubes
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/redhat
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/remi
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/rocky
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/rosa
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/rpmfusion
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/scientific-linux
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/skype
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/suse
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/unitedrpms
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/virtualbox
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/zimbra
+		rm -rf debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/zoom
