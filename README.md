@@ -67,8 +67,8 @@ Here is overview of availability of DNS entries for GPG keys:
 | OpenSuse | :heavy_check_mark:          | :heavy_check_mark: |
 | RPM Fusion | [requested](https://bugzilla.rpmfusion.org/show_bug.cgi?id=5927)        | :x: |
 | Dropbox    | requested        | :x: |
-| Debian (source) | :heavy_check_mark:        | :x: |
-| Ubuntu [launchpad](https://launchpad.net/~andykimpe/+archive/ubuntu/mock) | :heavy_check_mark:        | :x: |
+| [Debian 11 bullseye (stable)](https://software.opensuse.org/download.html?project=home%3Aandykimpe%3Adebian-buster&package=distribution-gpg-keys) | :heavy_check_mark:        | :x: |
+| Ubuntu LTS [launchpad](https://launchpad.net/~andykimpe/+archive/ubuntu/mock) | :heavy_check_mark:        | :x: |
 
 The keys can be fetched using `resolvectl openpgp EMAIL`. e.g. `resolvectl openpgp security@redhat.com`
 
