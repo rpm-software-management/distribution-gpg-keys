@@ -156,7 +156,9 @@ https://git.remirepo.net/cgit/rpms/remi-release.git/plain/RPM-GPG-KEY-remi2022
 
 ## Rocky Linux
 
-https://dl.rockylinux.org/pub/rocky/8/BaseOS/x86_64/os/RPM-GPG-KEY-rockyofficial
+https://dl.rockylinux.org/pub/rocky/8/BaseOS/x86_64/os/RPM-GPG-KEY-Rocky-8
+
+https://dl.rockylinux.org/pub/rocky/9/BaseOS/x86_64/os/RPM-GPG-KEY-Rocky-9
 
 ## Scientific Linux
 
