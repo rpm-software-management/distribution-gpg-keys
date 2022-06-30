@@ -108,3 +108,19 @@ To create new release:
     git commit
     tito tag
     git push && git push --tags
+    
+    
+    
+## Report a bug
+
+For Report a bug or Problem to the original project or rpm packages and pip packages use
+
+Github Issues
+
+https://github.com/xsuchy/distribution-gpg-keys/issues
+
+For Report a bug or Problem to the Debian/Ubuntu Package use online
+
+Launchpad Bugzilla
+
+https://bugs.launchpad.net/ubuntu/+source/distribution-gpg-keys/+filebug
