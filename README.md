@@ -113,7 +113,7 @@ To create new release:
     
 ## Report a bug
 
-For Report a bug or Problem to the original project or rpm packages and pip packages use
+For Report a bug or Problem to the original project or rpm packages use
 
 Github Issues
 
