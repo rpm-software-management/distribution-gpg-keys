@@ -1,0 +1,543 @@
+distribution-gpg-keys (1.72-1) unstable; urgency=medium
+
+  * update copr keys
+  * Add Circle Linux GPG Keys
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Tue, 07 Jun 2022 18:55:48 +0000
+
+distribution-gpg-keys (1.70-1) unstable; urgency=medium
+
+  * update copr keys
+  * Add RHEL9 keys
+  * Add RPM Fusion keys for Fedora 38
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Tue, 10 May 2022 18:55:48 +0000
+
+distribution-gpg-keys (1.69-1) unstable; urgency=medium
+
+  * update copr keys
+  * Add RPM Fusion keys for EL 9
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Mon, 02 May 2022 17:47:42 +0000
+
+distribution-gpg-keys (1.68-1) unstable; urgency=medium
+
+  * update copr keys
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, 07 Apr 2022 17:47:42 +0000
+
+distribution-gpg-keys (1.67-1) unstable; urgency=medium
+
+  * Refresh all CentOS SIG keys (rhbz#2059424)
+
+ -- Pavel Raiskup <praiskup@redhat.com>  Tue, 08 Mar 2022 17:47:42 +0000
+
+distribution-gpg-keys (1.66-1) unstable; urgency=medium
+
+  * update copr keys
+  * centos: Add new CentOS Extras SIG key (SHA256)
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Wed, 02 Mar 2022 17:47:42 +0000
+
+distribution-gpg-keys (1.65-1) unstable; urgency=medium
+
+  * update copr keys
+  * Add remi 2022 key
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Tue, 22 Feb 2022 17:47:42 +0000
+
+distribution-gpg-keys (1.64-1) unstable; urgency=medium
+
+  * move Fedora Rawhide key to F37
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Wed, 02 Feb 2022 17:47:42 +0000
+
+distribution-gpg-keys (1.63-1) unstable; urgency=medium
+
+  * Add EuroLinux 9 key
+  * Add CentOS Extras SIG key
+  * Add symlink for CentOS Stream 9 to main official key
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Wed, 02 Feb 2022 17:47:42 +0000
+
+distribution-gpg-keys (1.62-1) unstable; urgency=medium
+
+  * add Fedora 37
+  * update copr keys
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Mon, 24 Jan 2022 17:47:42 +0000
+
+distribution-gpg-keys (1.61-1) unstable; urgency=medium
+
+  * add new MySQL key
+  * update copr keys
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, 20 Jan 2022 17:47:42 +0000
+
+distribution-gpg-keys (1.60-1) unstable; urgency=medium
+
+  * update copr keys
+  * Add Navy Linux RPM GPG official key
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, 04 Nov 2021 17:47:42 +0000
+
+distribution-gpg-keys (1.59-1) unstable; urgency=medium
+
+  * update copr keys
+  * Add EPEL9 key
+  * Move Rawhide to F36
+  * Add keys of RPM Fusion Fedora 37
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Wed, 27 Oct 2021 17:47:42 +0000
+
+distribution-gpg-keys (1.58-1) unstable; urgency=medium
+
+  * update copr keys
+  * Add keys of Fedora rpmfusion 36
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Fri, 01 Oct 2021 17:47:42 +0000
+
+distribution-gpg-keys (1.57-1) unstable; urgency=medium
+
+  * update copr keys
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Sat, 04 Sep 2021 17:47:42 +0000
+
+distribution-gpg-keys (1.56-1) unstable; urgency=medium
+
+  * update copr keys
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Mon, 26 Jul 2021 17:47:42 +0000
+
+distribution-gpg-keys (1.55-1) unstable; urgency=medium
+
+  * update copr keys
+  * Add Rocky Linux Keys
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Mon, 28 Jun 2021 17:47:42 +0000
+
+distribution-gpg-keys (1.54-1) unstable; urgency=medium
+
+  * update copr keys
+  * Add openSUSE Backports OBS project key
+  * Add SUSE's package signing keys
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Mon, 07 Jun 2021 17:47:42 +0000
+
+distribution-gpg-keys (1.53-1) unstable; urgency=medium
+
+  * update copr keys
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, 20 May 2021 17:47:42 +0000
+
+distribution-gpg-keys (1.52-1) unstable; urgency=medium
+
+  * update copr keys
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, 22 Apr 2021 17:47:42 +0000
+
+distribution-gpg-keys (1.51-1) unstable; urgency=medium
+
+  * update copr keys
+  * Add missing CentOS SIG keys
+  * add Fedora 36 key
+  * matrix of opengpg availablity
+  * add intel new gpg key
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Mon, 01 Mar 2021 17:47:42 +0000
+
+distribution-gpg-keys (1.50-1) unstable; urgency=medium
+
+  * Add symlinks for F35
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Wed, 17 Feb 2021 17:47:42 +0000
+
+distribution-gpg-keys (1.49-1) unstable; urgency=medium
+
+  * update copr keys
+  * add mariadb key
+  * document type61
+  * add Alma Linux
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Wed, 17 Feb 2021 17:47:42 +0000
+
+distribution-gpg-keys (1.48-1) unstable; urgency=medium
+
+  * add Fedora 35
+  * update copr keys
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Fri, 05 Feb 2021 17:47:42 +0000
+
+distribution-gpg-keys (1.47-1) unstable; urgency=medium
+
+  * update copr keys
+  * add Remi 2021 key
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Mon, 18 Jan 2021 17:47:42 +0000
+
+distribution-gpg-keys (1.46-1) unstable; urgency=medium
+
+  * update copr keys
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, 17 Dec 2020 17:47:42 +0000
+
+distribution-gpg-keys (1.45-1) unstable; urgency=medium
+
+  * update copr keys
+  * update README with list of keys
+  * correct symlinks for rpmfusion 33/34
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Mon, 23 Nov 2020 17:47:42 +0000
+
+distribution-gpg-keys (1.44-1) unstable; urgency=medium
+
+  * update copr keys
+  * update link to fedora rawhide
+  * add Fedora ELN keys
+  * add Zoom gpg key
+  * Add Oracle Linux GPG keys
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Mon, 19 Oct 2020 17:47:42 +0000
+
+distribution-gpg-keys (1.43-1) unstable; urgency=medium
+
+  * now really add f33
+  * add f33 releasers
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Wed, 07 Oct 2020 17:47:42 +0000
+
+distribution-gpg-keys (1.42-1) unstable; urgency=medium
+
+  * update copr keys
+  * add rpmfusion 33 and update latest links
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Mon, 05 Oct 2020 17:47:42 +0000
+
+distribution-gpg-keys (1.41-1) unstable; urgency=medium
+
+  * add Fedora 34 key
+  * update copr keys
+  * add Qubes signing keys
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, 06 Aug 2020 17:47:42 +0000
+
+distribution-gpg-keys (1.40-1) unstable; urgency=medium
+
+  * update copr keys
+  * Add Datto's third party repository GPG keys
+  * Add EuroLinux keys
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Mon, 13 Jul 2020 17:47:42 +0000
+
+distribution-gpg-keys (1.39-1) unstable; urgency=medium
+
+  * update copr keys
+  * add intel gpg key
+  * add RosaLinux GPG keyring
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, 28 May 2020 17:47:42 +0000
+
+distribution-gpg-keys (1.38-1) unstable; urgency=medium
+
+  * update copr keys
+  * add mysql gpg key
+  * add BlueJeans key
+  * Add symlink from CentOS 8 to CentOS Official key
+  * add remi 2020 key and update for f32 branch
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Tue, 21 Apr 2020 17:47:42 +0000
+
+distribution-gpg-keys (1.37-1) unstable; urgency=medium
+
+  * update copr keys
+  * f29 is eoled
+  * Symlink Rawhide to Fedora 33 key
+  * Add remi 2020 key
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Tue, 18 Feb 2020 17:47:42 +0000
+
+distribution-gpg-keys (1.36-1) unstable; urgency=medium
+
+  * update copr keys
+  * add Fedora 33 gpg key
+  * Add keys for IUS repository (https://ius.io)
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Wed, 29 Jan 2020 17:47:42 +0000
+
+distribution-gpg-keys (1.35-1) unstable; urgency=medium
+
+  * update copr keys
+  * Add key for Amazon Linux 2
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, 26 Sep 2019 17:47:42 +0000
+
+distribution-gpg-keys (1.34-1) unstable; urgency=medium
+
+  * update copr keys
+  * fix whitespace error in fedora-32 key (rhbz#1743422)
+  * Add RPM Fusion keys for fedora 32
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Tue, 20 Aug 2019 17:47:42 +0000
+
+distribution-gpg-keys (1.33-1) unstable; urgency=medium
+
+  * add EPEL-8
+  * add CentOS 8 keys
+  * add Fedora 32 key
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Fri, 16 Aug 2019 17:47:42 +0000
+
+distribution-gpg-keys (1.32-1) unstable; urgency=medium
+
+  * Update Copr keys
+  * Add OpenMandriva package signing key
+  * add Zimbra key
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Mon, 08 Jul 2019 17:47:42 +0000
+
+distribution-gpg-keys (1.31-1) unstable; urgency=medium
+
+  * update Copr keys
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, 16 May 2019 17:47:42 +0000
+
+distribution-gpg-keys (1.30-1) unstable; urgency=medium
+
+  * Deleted old Copr keys and added new Copr keys
+  * readme: add note about Debian, Ubuntu and Arch
+  * update list of keys in README
+  * add brave key
+  * Add remi 2019 key
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, 11 Apr 2019 17:47:42 +0000
+
+distribution-gpg-keys (1.29-1) unstable; urgency=medium
+
+  * update Copr keys
+  * add F31 key and point rawhide to F31
+  * add Fedora iot keys
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Tue, 19 Feb 2019 17:47:42 +0000
+
+distribution-gpg-keys (1.28-1) unstable; urgency=medium
+
+  * update copr keys
+  * Add cuda 2019
+  * el8
+  * fedora 31 keys (rpmfusion)
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, 31 Jan 2019 17:47:42 +0000
+
+distribution-gpg-keys (1.27-1) unstable; urgency=medium
+
+  * update copr keys
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Fri, 16 Nov 2018 17:47:42 +0000
+
+distribution-gpg-keys (1.26-1) unstable; urgency=medium
+
+  * add RPM-GPG-KEY-redhat8-release
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Fri, 16 Nov 2018 17:47:42 +0000
+
+distribution-gpg-keys (1.25-1) unstable; urgency=medium
+
+  * update copr keys
+  * add RPM-GPG-KEY-redhat8-beta key
+  * add RPM-GPG-KEY-redhat-auxiliary2
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, 15 Nov 2018 17:47:42 +0000
+
+distribution-gpg-keys (1.24-1) unstable; urgency=medium
+
+  * update Copr keys
+  * add Microsoft key
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, 08 Nov 2018 17:47:42 +0000
+
+distribution-gpg-keys (1.23-1) unstable; urgency=medium
+
+  * update copr keys
+  * add rawhide as symlink to F30
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Fri, 14 Sep 2018 17:47:42 +0000
+
+distribution-gpg-keys (1.22-1) unstable; urgency=medium
+
+  * update copr keys
+  * add fedora 30
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Sun, 12 Aug 2018 17:47:42 +0000
+
+distribution-gpg-keys (1.21-1) unstable; urgency=medium
+
+  * Add openSUSE Package Signing Key
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Tue, 24 Apr 2018 17:47:42 +0000
+
+distribution-gpg-keys (1.20-1) unstable; urgency=medium
+
+  * add scientific linux key
+  * update copr keys
+  * add Fedora 29 key
+  * Update keys for rpmfusion
+  * Add rpmfusion f29 f30 keys for free nonfree
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Mon, 16 Apr 2018 17:47:42 +0000
+
+distribution-gpg-keys (1.19-1) unstable; urgency=medium
+
+  * update copr keys
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Wed, 21 Feb 2018 17:47:42 +0000
+
+distribution-gpg-keys (1.18-1) unstable; urgency=medium
+
+  * add UnitedRPMs
+  * Add remi 2018 key
+  * update Copr keys
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Sun, 21 Jan 2018 17:47:42 +0000
+
+distribution-gpg-keys (1.17-1) unstable; urgency=medium
+
+  * update Copr keys
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, 21 Dec 2017 17:47:42 +0000
+
+distribution-gpg-keys (1.16-1) unstable; urgency=medium
+
+  * update Copr keys
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Mon, 20 Nov 2017 17:47:42 +0000
+
+distribution-gpg-keys (1.15-1) unstable; urgency=medium
+
+  * update Copr keys
+  * add new remi key
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Tue, 19 Sep 2017 17:47:42 +0000
+
+distribution-gpg-keys (1.14-1) unstable; urgency=medium
+
+  * update Copr keys
+  * add remi's repository gpg key
+  * add jpackage gpg key
+  * add CalcForge gpg key
+  * add virtualbox gpg key
+  * add PostgreSQL RPM Building Project gpg keys
+  * add Skype gpg key
+  * add Google gpg key
+  * add dell public key
+  * add RPM-GPG-KEY-adobe-linux
+  * add Dropbox gpg key
+  * add RPM-GPG-KEY-fedora-28-primary
+  * add rpmfusion 28
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Mon, 21 Aug 2017 17:47:42 +0000
+
+distribution-gpg-keys (1.13-1) unstable; urgency=medium
+
+  * update Copr keys
+  * add fedora modularity gpg key
+  * add SCL SIG key
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Mon, 31 Jul 2017 17:47:42 +0000
+
+distribution-gpg-keys (1.12-1) unstable; urgency=medium
+
+  * update Copr keys
+  * Update Red Hat Keys
+
+ --  -- Miroslav Suchý <msuchy@redhat.com>  Thu, 13 Jul 2017 17:47:42 +0000
+
+distribution-gpg-keys (1.11-1) unstable; urgency=medium
+
+  * update Copr keys
+  * update source for rpmfusion
+  * Update symlinks for rpmfusion lastest/rawhide
+  * Add rpmfusion free/nonfree 27 keys
+  * Add rpmfusion free/nonfree 26 keys
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Mon, 03 Apr 2017 17:47:42 +0000
+
+distribution-gpg-keys (1.10-1) unstable; urgency=medium
+
+  * update COPR keys
+  * add F27 key
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, 16 Mar 2017 17:47:42 +0000
+
+distribution-gpg-keys (1.9-1) unstable; urgency=medium
+
+  * add new copr keys
+  * add Fedora 26 keys
+  * add more CentOS 7 keys (aarch64, debug, SIGs, testing)
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, 01 Dec 2016 17:47:42 +0000
+
+distribution-gpg-keys (1.8-1) unstable; urgency=medium
+
+  * update copr gpg keys
+  * README.md: Indicate what keys are actually included
+  * add rpmfusion F19 keys
+  * add note how to verify gpg key using fingerprint
+  * RPMFusion add fedora-20 and fedora-21 keys
+  * RPMFusion add rpmfusion el-7 keys
+  * RPMFusion add fedora-25 keys
+  * use symbol links .
+  * Add a crucial information to README.md
+
+ -- Miroslav Suchý <miroslav@suchy.cz>  Mon, 24 Oct 2016 17:47:42 +0000
+
+distribution-gpg-keys (1.7-1) unstable; urgency=medium
+
+  * do not use weak deps on rhel
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Mon, 12 Sep 2016 17:47:42 +0000
+
+distribution-gpg-keys (1.6-1) unstable; urgency=medium
+
+  * Rename mageia pubkey to RPM-GPG-KEY-Mageia
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Mon, 12 Sep 2016 17:47:42 +0000
+
+distribution-gpg-keys (1.5-1) unstable; urgency=medium
+
+  * move copr keys to subpackage
+  * update copr gpg keys
+  * add RPM-GPG-KEY-CentOS-SIG-AltArch-7-ppc64le
+  * add F25 keys
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Mon, 08 Aug 2016 17:47:42 +0000
+
+distribution-gpg-keys (1.4-1) unstable; urgency=medium
+
+  * update SOURCES
+  * update copr gpg keys
+  * add mageia gpg keys
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Mon, 14 Mar 2016 17:47:42 +0000
+
+distribution-gpg-keys (1.3-1) unstable; urgency=medium
+
+  * add copr keys
+  * added obsolete gpg keys
+  * document from where those keys can be originally obtained
+  * suggest installations of other keyrings
+  * do not include email in changelog items
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Tue, 02 Feb 2016 17:47:42 +0000
+
+distribution-gpg-keys (1.2-1) unstable; urgency=medium
+
+  * document how to do release
+  * change license to CC-0
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Fri, 16 Oct 2015 17:47:42 +0000
+
+distribution-gpg-keys (1.1-1) unstable; urgency=medium
+
+  * Initial Release.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, Oct 15 2015 17:47:42 +0000

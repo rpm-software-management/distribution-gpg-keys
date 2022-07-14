@@ -74,6 +74,11 @@ The keys can be fetched using `resolvectl openpgp EMAIL`. e.g. `resolvectl openp
  
 ![distribution-gpg-keys versions](https://repology.org/badge/vertical-allrepos/distribution-gpg-keys.svg?exclude_unsupported=1&header=distribution-gpg-keys)
 
+[Ubuntu 20.04 LTS (Focal Fossa), Ubuntu 22.04 LTS (Jammy Jellyfish)](https://launchpad.net/~andykimpe/+archive/ubuntu/mock)
+
+
+[Debian 11 Bullseye Stable](https://software.opensuse.org/download.html?project=home%3Aandykimpe%3Adebian-buster&package=distribution-gpg-keys)
+
 ## Downstream packaging
 
 If you are going to package this project, then consider packaging Copr keys as subpackage as it is quite big.
@@ -103,3 +108,19 @@ To create new release:
     git commit
     tito tag
     git push && git push --tags
+    
+    
+    
+## Report a bug
+
+For Report a bug or Problem to the original project or rpm packages use
+
+Github Issues
+
+https://github.com/xsuchy/distribution-gpg-keys/issues
+
+For Report a bug or Problem to the Debian/Ubuntu Package use online
+
+Launchpad Bugzilla
+
+https://bugs.launchpad.net/ubuntu/+source/distribution-gpg-keys/+filebug
