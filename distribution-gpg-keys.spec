@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.72
+Version:	1.73
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,10 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Sun Jul 17 2022 Miroslav Suchý <msuchy@redhat.com> 1.73-1
+- update copr keys
+- Add Rocky Linux 9 Keys and Refresh 8
+
 * Tue Jun 07 2022 Miroslav Suchý <msuchy@redhat.com> 1.72-1
 - update copr keys
 - Add Circle Linux GPG Keys
