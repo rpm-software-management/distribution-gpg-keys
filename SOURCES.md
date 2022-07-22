@@ -1,5 +1,9 @@
 # Where those keys were obtained
 
+## Anolis OS
+
+https://mirrors.openanolis.cn/anolis/RPM-GPG-KEY-ANOLIS
+
 ## Centos keys
 
 https://www.centos.org/keys/
