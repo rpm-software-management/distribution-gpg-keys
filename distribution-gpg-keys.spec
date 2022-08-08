@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.74
+Version:	1.75
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,10 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Mon Aug 08 2022 Miroslav Suchý <msuchy@redhat.com> 1.75-1
+- update copr keys
+- Add Amazon Linux 2022 GPG key
+
 * Fri Jul 22 2022 Miroslav Suchý <msuchy@redhat.com> 1.74-1
 - Add Anolis OS GPG Keys
 
