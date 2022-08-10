@@ -1,0 +1,20 @@
+name: Check if we have all Fedora keys
+
+on:
+  schedule:
+    - cron: '48 23 * * 2'
+
+jobs:
+  clone-and-compare:
+    name: Clone fedora-repos and compare the keys with what we have
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Clone fedora-repos
+        run: |
+          git clone https://src.fedoraproject.org/rpms/fedora-repos.git --depth 1 --branch rawhide
+      - name: Compare list of keys
+        # note: we only compare double digit keys not to be concerned with some of the historical cruft
+        run: |
+          diff -u <(ls -1 fedora-repos/RPM-GPG-KEY-fedora-??-primary | xargs -n 1 basename) <(ls -1 keys/fedora/RPM-GPG-KEY-fedora-??-primary | xargs -n 1 basename)
