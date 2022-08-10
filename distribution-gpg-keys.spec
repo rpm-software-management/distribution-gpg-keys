@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.75
+Version:	1.76
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,9 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Wed Aug 10 2022 Miroslav Suchý <msuchy@redhat.com> 1.76-1
+- add fedora 38 and 39
+
 * Mon Aug 08 2022 Miroslav Suchý <msuchy@redhat.com> 1.75-1
 - update copr keys
 - Add Amazon Linux 2022 GPG key
