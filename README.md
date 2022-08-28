@@ -14,6 +14,7 @@ GPG keys used by various Linux distributions to sign packages.
  * EuroLinux
  * Fedora
  * Mageia
+ * openEuler
  * OpenMandriva
  * OpenSuse
  * Oracle Linux
