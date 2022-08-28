@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.76
+Version:	1.77
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,12 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Sun Aug 28 2022 Miroslav Suchý <msuchy@redhat.com> 1.77-1
+- Add openEuler GPG Key
+- update copr keys
+- Add Oracle Linux 9 key
+- Add Fedora 10 key
+
 * Wed Aug 10 2022 Miroslav Suchý <msuchy@redhat.com> 1.76-1
 - add fedora 38 and 39
 
