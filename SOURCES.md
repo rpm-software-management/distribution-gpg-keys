@@ -16,6 +16,12 @@ https://getfedora.org/en/keys/
 
 http://mirrors.kernel.org/mageia/distrib/cauldron/x86_64/media/core/release/media_info/pubkey
 
+## openEuler
+
+http://repo.openeuler.org/openEuler-22.03-LTS/OS/aarch64/RPM-GPG-KEY-openEuler
+
+http://repo.openeuler.org/openEuler-22.03-LTS/OS/x86_64/RPM-GPG-KEY-openEuler
+
 ## OpenMandriva
 
 https://raw.githubusercontent.com/OpenMandrivaAssociation/openmandriva-repos/master/RPM-GPG-KEY-OpenMandriva
