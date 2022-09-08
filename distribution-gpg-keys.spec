@@ -3,7 +3,7 @@ Version:	1.77
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
-License:	CC0
+License:	CC0-1.0
 URL:		https://github.com/xsuchy/distribution-gpg-keys
 # Sources can be obtained by
 # git clone git://github.com/xsuchy/distribution-gpg-keys.git
