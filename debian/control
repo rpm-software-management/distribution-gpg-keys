@@ -24,6 +24,6 @@ Description: GPG keys used by various Linux distributions to sign packages.
 
 
 Package: distribution-gpg-keys-copr
-Architecture: any
+Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: GPG keys used by Copr projects.
