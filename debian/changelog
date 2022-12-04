@@ -1,6 +1,7 @@
 distribution-gpg-keys (1.79-2) UNRELEASED; urgency=medium
 
   * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository-Browse.
+  * Update standards version to 4.6.1, no changes needed.
 
  -- Juri Grabowski <debian@jugra.de>  Sun, 04 Dec 2022 18:16:10 -0000
 
