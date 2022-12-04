@@ -1,3 +1,64 @@
+distribution-gpg-keys (1.79-1) unstable; urgency=medium
+
+  [ Louis Abel ]
+  * Add Rocky Linux 9 Keys and Refresh 8
+
+  [ amidevous ]
+  * Update README.md
+
+  [ Louis Abel ]
+  * Link and file were reversed: Keep original name, symlink fixed name
+  * Fix URL in SOURCES.md and add additional keys
+
+  [ Miroslav Suchý ]
+  * update copr keys
+  * Automatic commit of package [distribution-gpg-keys] release [1.73-1].
+
+  [ wb-zh951434 ]
+  * Add Anolis OS GPG Keys
+
+  [ Miroslav Suchý ]
+  * Automatic commit of package [distribution-gpg-keys] release [1.74-1].
+
+  [ Stewart Smith ]
+  * Add Amazon Linux 2022 GPG key
+
+  [ Miroslav Suchý ]
+  * update copr keys
+  * Automatic commit of package [distribution-gpg-keys] release [1.75-1].
+  * add fedora 38 and 39
+  * Automatic commit of package [distribution-gpg-keys] release [1.76-1].
+  * add f37 to releasers
+
+  [ Miro Hrončok ]
+  * Add a GitHub action to check all if Fedora keys are present
+  * Add Fedora 10 key
+
+  [ Anton Samets ]
+  * Add Oracle Linux 9 key
+
+  [ Miroslav Suchý ]
+  * add copr keys
+
+  [ Yikun Jiang ]
+  * Add openEuler GPG Key: RPM-GPG-KEY-openEuler
+  * Add openEuler to SOURCE
+  * Add openEuler to Readme
+
+  [ Miroslav Suchý ]
+  * Automatic commit of package [distribution-gpg-keys] release [1.77-1].
+  * change license to spdx
+  * update copr keys
+  * Automatic commit of package [distribution-gpg-keys] release [1.78-1].
+  * update copr keys
+  * fix Fedora 39 key
+  * Automatic commit of package [distribution-gpg-keys] release [1.79-1].
+
+  [ Juri Grabowski ]
+  * retab for makefile
+
+ -- Juri Grabowski <debian@jugra.de>  Sun, 04 Dec 2022 18:11:14 +0100
+
 distribution-gpg-keys (1.72-1) unstable; urgency=medium
 
   * update copr keys
