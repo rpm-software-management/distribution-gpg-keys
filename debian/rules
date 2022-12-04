@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 %:
-        dh $@
+	dh $@
 override_dh_auto_install:
 		install -d debian/distribution-gpg-keys/usr/share/distribution-gpg-keys/
 		install -d debian/distribution-gpg-keys-copr/usr/share/distribution-gpg-keys/
