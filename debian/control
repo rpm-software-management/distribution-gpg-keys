@@ -20,7 +20,6 @@ Rules-Requires-Root: no
 Package: distribution-gpg-keys
 Architecture: all
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Recommends: ubutun-keyring, ubutun-archive-keyring, debian-keyring, distribution-gpg-keys-copr
 Description: GPG keys used by various Linux distributions to sign packages.
 
 
