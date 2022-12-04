@@ -1,3 +1,9 @@
+distribution-gpg-keys (1.79-2) UNRELEASED; urgency=medium
+
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository-Browse.
+
+ -- Juri Grabowski <debian@jugra.de>  Sun, 04 Dec 2022 18:16:10 -0000
+
 distribution-gpg-keys (1.79-1) unstable; urgency=medium
 
   [ Louis Abel ]
