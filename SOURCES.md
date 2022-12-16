@@ -188,6 +188,10 @@ http://ftp1.scientificlinux.org/linux/scientific/7x/x86_64/os/RPM-GPG-KEY-sl7
 
 https://repo.skype.com/data/SKYPE-GPG-KEY
 
+## SME Server
+
+http://mirror.canada.pialasse.com/releases/10/smeos/x86_64/
+
 ## UnitedRPMs
 
 https://github.com/UnitedRPMs/unitedrpms/blob/master/URPMS-GPG-PUBLICKEY-Fedora-24
