@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.79
+Version:	1.80
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,10 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Fri Dec 16 2022 Miroslav Suchý <msuchy@redhat.com> 1.80-1
+- add SME Server keys
+- update copr keys
+
 * Mon Nov 14 2022 Miroslav Suchý <msuchy@redhat.com> 1.79-1
 - fix Fedora 39 key
 - update copr keys
