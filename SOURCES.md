@@ -192,6 +192,12 @@ https://repo.skype.com/data/SKYPE-GPG-KEY
 
 http://mirror.canada.pialasse.com/releases/10/smeos/x86_64/
 
+## TeamViewer
+
+https://community.teamviewer.com/English/kb/articles/30708-install-teamviewer-on-red-hat-and-centos
+
+https://download.teamviewer.com/download/linux/signature/TeamViewer2017.asc
+
 ## UnitedRPMs
 
 https://github.com/UnitedRPMs/unitedrpms/blob/master/URPMS-GPG-PUBLICKEY-Fedora-24
