@@ -166,6 +166,8 @@ https://git.remirepo.net/cgit/rpms/remi-release.git/plain/RPM-GPG-KEY-remi2021
 
 https://git.remirepo.net/cgit/rpms/remi-release.git/plain/RPM-GPG-KEY-remi2022
 
+https://git.remirepo.net/cgit/rpms/remi-release.git/plain/RPM-GPG-KEY-remi2023
+
 ## Rocky Linux
 
 https://dl.rockylinux.org/pub/rocky/RPM-GPG-KEY-Rocky-8
