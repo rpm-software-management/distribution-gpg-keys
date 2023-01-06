@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.80
+Version:	1.81
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,11 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Fri Jan 06 2023 Miroslav Suchý <msuchy@redhat.com> 1.81-1
+- update copr keys
+- Add remi 2023 key
+- add TeamViewer key
+
 * Fri Dec 16 2022 Miroslav Suchý <msuchy@redhat.com> 1.80-1
 - add SME Server keys
 - update copr keys
