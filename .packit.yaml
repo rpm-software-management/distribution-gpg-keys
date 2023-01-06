@@ -11,6 +11,11 @@ upstream_project_name: distribution-gpg-keys
 
 downstream_package_name: distribution-gpg-keys
 
+
+srpm_build_deps:
+  - tito
+  - git
+
 #create_tarball_command: tito build --test --tgz -o ./
 
 jobs:
