@@ -10,7 +10,7 @@ https://www.centos.org/keys/
 
 ## Fedora & Epel keys
 
-https://getfedora.org/en/keys/
+https://src.fedoraproject.org/rpms/fedora-repos/tree/rawhide
 
 ## Mageia
 
