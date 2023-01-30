@@ -17,10 +17,12 @@ https://src.fedoraproject.org/rpms/fedora-repos/tree/rawhide
 http://mirrors.kernel.org/mageia/distrib/cauldron/x86_64/media/core/release/media_info/pubkey
 
 ## openEuler
-
+### OBS generated key
 http://repo.openeuler.org/openEuler-22.03-LTS/OS/aarch64/RPM-GPG-KEY-openEuler
 
 http://repo.openeuler.org/openEuler-22.03-LTS/OS/x86_64/RPM-GPG-KEY-openEuler
+### EulerMaker generated key
+https://repo.openeuler.org/openEuler-22.03-LTS-SP1/OS/aarch64/RPM-GPG-KEY-openEuler
 
 ## OpenMandriva
 
