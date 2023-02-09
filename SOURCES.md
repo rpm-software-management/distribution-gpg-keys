@@ -112,6 +112,10 @@ http://linux.dell.com/repo/hardware/dsu/public.key
 
 https://linux.dropbox.com/fedora/rpm-public-key.asc
 
+## Elastic
+
+https://artifacts.elastic.co/GPG-KEY-elasticsearch
+
 ## Google
 
 https://dl-ssl.google.com/linux/linux_signing_key.pub
