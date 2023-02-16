@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.82
+Version:	1.84
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,18 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Thu Feb 16 2023 Miroslav Suchý <msuchy@redhat.com> 1.84-1
+- add tumbleweed key
+- Added RPM Fusion keys for Fedora 39.
+- update copr keys
+- add elastic gpg key
+
+* Thu Feb 16 2023 Miroslav Suchý <msuchy@redhat.com>
+- add tumbleweed key
+- Added RPM Fusion keys for Fedora 39.
+- update copr keys
+- add elastic gpg key
+
 * Mon Jan 30 2023 Miroslav Suchý <msuchy@redhat.com> 1.82-1
 - move symlink of fedora-rawhide to fedora-39
 - add openEuler new key
