@@ -82,6 +82,10 @@ https://repo.almalinux.org/almalinux/RPM-GPG-KEY-AlmaLinux-8
 
 https://repo.almalinux.org/almalinux/RPM-GPG-KEY-AlmaLinux-9
 
+## AnyDesk
+
+https://keys.anydesk.com/repos/RPM-GPG-KEY
+
 ## Brave
 
 https://brave-browser.readthedocs.io/en/latest/installing-brave.html#linux
