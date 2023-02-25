@@ -7,7 +7,6 @@ GPG keys used by various Linux distributions to sign packages.
  * Anolis OS
  * Amazon Linux
  * Alma Linux
- * COPR repositories
  * CentOS
  * Circle Linux
  * EPEL
@@ -30,12 +29,15 @@ GPG keys used by various Linux distributions to sign packages.
 and for third parties repos:
 
  * Adobe
+ * AnyDesk
  * Brave
  * BlueJeans
  * CalcForge
+ * COPR repositories
  * Datto
  * Dell
  * Dropbox
+ * Elastic
  * Google
  * IUS
  * JPackage
@@ -45,6 +47,9 @@ and for third parties repos:
  * PostgreSQL RPM Building Project
  * Remi's
  * Skype
+ * SME Server
+ * TeamViewer
+ * UnitedRPMs
  * VirtualBox
  * Zimbra
  * Zoom

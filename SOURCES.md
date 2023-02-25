@@ -1,12 +1,28 @@
 # Where those keys were obtained
 
+# Distributions
+
 ## Anolis OS
 
 https://mirrors.openanolis.cn/anolis/RPM-GPG-KEY-ANOLIS
 
+## Alma Linux
+
+https://repo.almalinux.org/almalinux/
+
+## Amazon Linux
+
+https://cdn.amazonlinux.com/_assets/11CF1F95C87F5B1A.asc
+
+AL2022 extracted from https://al2022-repos-us-west-2-9761ab97.s3.dualstack.us-west-2.amazonaws.com/blobstore/7e0773f1ec72808c44fc3c0ed5582f8046f03478205c93975893763d3238431c/system-release-2022.0.20220728-0.amzn2022.noarch.rpm
+
 ## Centos keys
 
 https://www.centos.org/keys/
+
+## Circle Linux
+
+https://mirror.cclinux.org/pub/circle/8/RPM-GPG-KEY-circleofficial
 
 ## Fedora & Epel keys
 
@@ -17,28 +33,44 @@ https://src.fedoraproject.org/rpms/fedora-repos/tree/rawhide
 http://mirrors.kernel.org/mageia/distrib/cauldron/x86_64/media/core/release/media_info/pubkey
 
 ## openEuler
-### OBS generated key
-http://repo.openeuler.org/openEuler-22.03-LTS/OS/aarch64/RPM-GPG-KEY-openEuler
 
-http://repo.openeuler.org/openEuler-22.03-LTS/OS/x86_64/RPM-GPG-KEY-openEuler
-### EulerMaker generated key
-https://repo.openeuler.org/openEuler-22.03-LTS-SP1/OS/aarch64/RPM-GPG-KEY-openEuler
+  *  OBS generated key
+     http://repo.openeuler.org/openEuler-22.03-LTS/OS/aarch64/RPM-GPG-KEY-openEuler
+     http://repo.openeuler.org/openEuler-22.03-LTS/OS/x86_64/RPM-GPG-KEY-openEuler
+  *  EulerMaker generated key
+     https://repo.openeuler.org/openEuler-22.03-LTS-SP1/OS/aarch64/RPM-GPG-KEY-openEuler
 
 ## OpenMandriva
 
 https://raw.githubusercontent.com/OpenMandrivaAssociation/openmandriva-repos/master/RPM-GPG-KEY-OpenMandriva
 
+## Oracle Linux
+
+see bottom of https://yum.oracle.com/faq.html
+
+## Qubes' repositories
+
+https://keys.qubes-os.org/keys/
+
 ## RosaLinux
 
 https://abf.io/import/rosa-repos/raw/rosa2019.1/RPM-GPG-KEY-ROSA
 
+## Rocky Linux
+
+https://dl.rockylinux.org/pub/rocky/RPM-GPG-KEY-Rocky-8
+
+https://dl.rockylinux.org/pub/rocky/RPM-GPG-KEY-Rocky-8-Testing
+
+https://dl.rockylinux.org/pub/rocky/RPM-GPG-KEY-Rocky-9
+
+https://dl.rockylinux.org/pub/rocky/RPM-GPG-KEY-Rocky-9-Testing
+
+https://dl.rockylinux.org/pub/rocky/RPM-GPG-KEY-rockyinfra
+
 ## EuroLinux
 
 https://euro-linux.com/product-signing-keys/
-
-## Copr
-
-pushd keys/copr && ../../copr-gpg-download.py --isolate-files && popd
 
 ## Red Hat
 
@@ -54,33 +86,22 @@ https://build.opensuse.org/projects/openSUSE:Factory/public_key
 
 https://build.opensuse.org/projects/openSUSE:Backports/public_key
 
+## Scientific Linux
+
+http://ftp1.scientificlinux.org/linux/scientific/7x/x86_64/os/RPM-GPG-KEY-sl
+
+http://ftp1.scientificlinux.org/linux/scientific/7x/x86_64/os/RPM-GPG-KEY-sl7
+
 ## SUSE
 
 https://www.suse.com/support/security/keys/
 
-## Amazon Linux
 
-https://cdn.amazonlinux.com/_assets/11CF1F95C87F5B1A.asc
-
-AL2022 extracted from https://al2022-repos-us-west-2-9761ab97.s3.dualstack.us-west-2.amazonaws.com/blobstore/7e0773f1ec72808c44fc3c0ed5582f8046f03478205c93975893763d3238431c/system-release-2022.0.20220728-0.amzn2022.noarch.rpm
-
-## RpmFusion
-
-http://rpmfusion.org/keys
-
-https://pkgs.rpmfusion.org/cgit/free/rpmfusion-free-release.git/tree/
-
-https://pkgs.rpmfusion.org/cgit/nonfree/rpmfusion-nonfree-release.git/tree/
+# Third parties repos
 
 ## Adobe
 
 https://get.adobe.com/cz/flashplayer/
-
-## AlmaLinux
-
-https://repo.almalinux.org/almalinux/RPM-GPG-KEY-AlmaLinux-8
-
-https://repo.almalinux.org/almalinux/RPM-GPG-KEY-AlmaLinux-9
 
 ## AnyDesk
 
@@ -98,9 +119,9 @@ https://www.bluejeans.com/downloads
 
 https://www.calcforge.org/RPM-GPG-KEY-calcforge
 
-## Circle Linux
+## Copr
 
-https://mirror.cclinux.org/pub/circle/8/RPM-GPG-KEY-circleofficial
+pushd keys/copr && ../../copr-gpg-download.py --isolate-files && popd
 
 ## Datto
 
@@ -144,21 +165,17 @@ http://www.jpackage.org/jpackage.asc
 
 https://mariadb.org/download/
 
+## Microsoft
+
+https://packages.microsoft.com/keys/microsoft.asc
+
 ## MySQL
 
 https://repo.mysql.com/RPM-GPG-KEY-mysql
 
-## Oracle Linux
-
-see bottom of https://yum.oracle.com/faq.html
-
 ## PostgreSQL RPM Building Project
 
 https://apt.postgresql.org/pub/repos/yum/
-
-## Qubes' repositories
-
-https://keys.qubes-os.org/keys/
 
 ## Remi's repositories
 
@@ -178,23 +195,13 @@ https://git.remirepo.net/cgit/rpms/remi-release.git/plain/RPM-GPG-KEY-remi2022
 
 https://git.remirepo.net/cgit/rpms/remi-release.git/plain/RPM-GPG-KEY-remi2023
 
-## Rocky Linux
+## RpmFusion
 
-https://dl.rockylinux.org/pub/rocky/RPM-GPG-KEY-Rocky-8
+http://rpmfusion.org/keys
 
-https://dl.rockylinux.org/pub/rocky/RPM-GPG-KEY-Rocky-8-Testing
+https://pkgs.rpmfusion.org/cgit/free/rpmfusion-free-release.git/tree/
 
-https://dl.rockylinux.org/pub/rocky/RPM-GPG-KEY-Rocky-9
-
-https://dl.rockylinux.org/pub/rocky/RPM-GPG-KEY-Rocky-9-Testing
-
-https://dl.rockylinux.org/pub/rocky/RPM-GPG-KEY-rockyinfra
-
-## Scientific Linux
-
-http://ftp1.scientificlinux.org/linux/scientific/7x/x86_64/os/RPM-GPG-KEY-sl
-
-http://ftp1.scientificlinux.org/linux/scientific/7x/x86_64/os/RPM-GPG-KEY-sl7
+https://pkgs.rpmfusion.org/cgit/nonfree/rpmfusion-nonfree-release.git/tree/
 
 ## Skype
 
@@ -217,10 +224,6 @@ https://github.com/UnitedRPMs/unitedrpms/blob/master/URPMS-GPG-PUBLICKEY-Fedora-
 ## VirtualBox
 
 https://www.virtualbox.org/download/oracle_vbox.asc
-
-## Microsoft
-
-https://packages.microsoft.com/keys/microsoft.asc
 
 ## Zimbra
 
