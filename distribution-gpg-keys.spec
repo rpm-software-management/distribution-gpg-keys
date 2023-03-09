@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.84
+Version:	1.85
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,11 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Thu Mar 09 2023 Miroslav Suchý <msuchy@redhat.com> 1.85-1
+- update copr keys
+- Add Amazon Linux 2023 and remove Amazon Linux 2022 key
+- add AnyDesk GPG key
+
 * Thu Feb 16 2023 Miroslav Suchý <msuchy@redhat.com> 1.84-1
 - add tumbleweed key
 - Added RPM Fusion keys for Fedora 39.
