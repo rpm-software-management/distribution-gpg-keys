@@ -38,6 +38,7 @@ and for third parties repos:
  * Dell
  * Dropbox
  * Elastic
+ * Element
  * Google
  * IUS
  * JPackage

@@ -141,6 +141,10 @@ https://linux.dropbox.com/fedora/rpm-public-key.asc
 
 https://artifacts.elastic.co/GPG-KEY-elasticsearch
 
+## Element
+
+https://packages.element.io/
+
 ## Google
 
 https://dl-ssl.google.com/linux/linux_signing_key.pub
