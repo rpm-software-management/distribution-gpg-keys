@@ -225,6 +225,10 @@ https://download.teamviewer.com/download/linux/signature/TeamViewer2017.asc
 
 https://github.com/UnitedRPMs/unitedrpms/blob/master/URPMS-GPG-PUBLICKEY-Fedora-24
 
+## VeraCrypt
+
+https://www.veracrypt.fr/en/Digital%20Signatures.html#VerifyPGPSignature
+
 ## VirtualBox
 
 https://www.virtualbox.org/download/oracle_vbox.asc

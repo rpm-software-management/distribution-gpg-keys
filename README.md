@@ -51,6 +51,7 @@ and for third parties repos:
  * SME Server
  * TeamViewer
  * UnitedRPMs
+ * VeraCrypt
  * VirtualBox
  * Zimbra
  * Zoom
