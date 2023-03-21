@@ -40,6 +40,7 @@ and for third parties repos:
  * Elastic
  * Element
  * Google
+ * Google Cloud
  * IUS
  * JPackage
  * MariaDB
