@@ -149,6 +149,12 @@ https://packages.element.io/
 
 https://dl-ssl.google.com/linux/linux_signing_key.pub
 
+## Google Cloud
+
+https://packages.cloud.google.com/yum/doc/yum-key.gpg
+
+https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg
+
 ## IUS
 
 https://repo.ius.io/RPM-GPG-KEY-IUS-6
