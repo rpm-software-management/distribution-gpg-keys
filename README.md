@@ -43,6 +43,7 @@ and for third parties repos:
  * Google
  * Google Cloud
  * IUS
+ * Jenkins
  * JPackage
  * MariaDB
  * MySQL
