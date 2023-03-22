@@ -30,6 +30,7 @@ and for third parties repos:
 
  * Adobe
  * AnyDesk
+ * Bacula
  * Brave
  * BlueJeans
  * CalcForge
