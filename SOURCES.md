@@ -107,6 +107,12 @@ https://get.adobe.com/cz/flashplayer/
 
 https://keys.anydesk.com/repos/RPM-GPG-KEY
 
+## Bacula
+
+https://www.bacula.org/bacula-distribution-verification-public-keys/ (used for the Bacula suite in general)
+
+https://www.bacula.org/downloads/baculum/baculum.pub (used for Baculum specifically)
+
 ## Brave
 
 https://brave-browser.readthedocs.io/en/latest/installing-brave.html#linux
