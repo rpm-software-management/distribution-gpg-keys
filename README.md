@@ -41,6 +41,7 @@ and for third parties repos:
  * Element
  * Google
  * IUS
+ * Jenkins
  * JPackage
  * MariaDB
  * MySQL

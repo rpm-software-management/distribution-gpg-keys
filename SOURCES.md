@@ -161,6 +161,12 @@ https://yum.repos.intel.com/intel-gpg-keys/GPG-PUB-KEY-INTEL-SW-PRODUCTS-2019.PU
 
 https://www.intel.com/content/www/us/en/security-center/pgp-public-key.html
 
+## Jenkins
+
+https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+
+https://kohsuke.org/about/pgp/ (used by pre-2020 releases, see https://www.jenkins.io/blog/2020/07/27/repository-signing-keys-changing/ for more information)
+
 ## JPackage
 
 http://www.jpackage.org/jpackage.asc
