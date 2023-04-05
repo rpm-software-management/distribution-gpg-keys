@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.85
+Version:	1.86
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,14 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Wed Apr 05 2023 Miroslav Suchý <msuchy@redhat.com> 1.86-1
+- update copr keys
+- Add Jenkins 2023
+- Add keys for Bacula & Baculum
+- Add keys for Google Cloud
+- Add VeraCrypt keys
+- add Element keys
+
 * Thu Mar 09 2023 Miroslav Suchý <msuchy@redhat.com> 1.85-1
 - update copr keys
 - Add Amazon Linux 2023 and remove Amazon Linux 2022 key
