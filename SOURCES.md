@@ -175,7 +175,9 @@ https://www.intel.com/content/www/us/en/security-center/pgp-public-key.html
 
 ## Jenkins
 
-https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
+
+https://pkg.jenkins.io/redhat-stable/jenkins.io.key (used for releases between 2020 and 2023, see https://www.jenkins.io/blog/2023/03/27/repository-signing-keys-changing/)
 
 https://kohsuke.org/about/pgp/ (used by pre-2020 releases, see https://www.jenkins.io/blog/2020/07/27/repository-signing-keys-changing/ for more information)
 
