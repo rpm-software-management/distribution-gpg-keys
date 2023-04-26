@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.86
+Version:	1.87
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,12 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Wed Apr 26 2023 Miroslav Suchý <msuchy@redhat.com> 1.87-1
+- update copr keys
+- update virtualbox key
+- update openSUSE-Backports key
+- update skype key
+
 * Wed Apr 05 2023 Miroslav Suchý <msuchy@redhat.com> 1.86-1
 - update copr keys
 - Add Jenkins 2023
