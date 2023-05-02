@@ -48,6 +48,7 @@ and for third parties repos:
  * MariaDB
  * MySQL
  * Microsoft
+ * Mullvad
  * PostgreSQL RPM Building Project
  * Remi's
  * Skype

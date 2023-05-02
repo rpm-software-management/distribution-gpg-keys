@@ -193,6 +193,10 @@ https://mariadb.org/download/
 
 https://packages.microsoft.com/keys/microsoft.asc
 
+## Mullvad
+
+https://mullvad.net/en/help/verifying-signatures/
+
 ## MySQL
 
 https://repo.mysql.com/RPM-GPG-KEY-mysql
