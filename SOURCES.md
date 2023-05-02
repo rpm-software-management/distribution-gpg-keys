@@ -139,6 +139,12 @@ https://cpkg.datto.com/DATTO-LEGACYDIST-PKGS-GPG-KEY
 
 http://linux.dell.com/repo/hardware/dsu/public.key
 
+## Docker
+
+https://download.docker.com/linux/fedora/gpg
+
+https://download.docker.com/linux/debian/gpg
+
 ## Dropbox
 
 https://linux.dropbox.com/fedora/rpm-public-key.asc

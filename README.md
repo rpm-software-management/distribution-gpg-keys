@@ -37,6 +37,7 @@ and for third parties repos:
  * COPR repositories
  * Datto
  * Dell
+ * Docker
  * Dropbox
  * Elastic
  * Element
