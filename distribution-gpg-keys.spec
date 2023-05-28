@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.87
+Version:	1.88
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,13 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Sun May 28 2023 Miroslav Suchý <msuchy@redhat.com> 1.88-1
+- update copr keys
+- add per distro/version link to proper key for remi
+- update brave keys
+- add Docker key
+- add mullvad key
+
 * Wed Apr 26 2023 Miroslav Suchý <msuchy@redhat.com> 1.87-1
 - update copr keys
 - update virtualbox key
