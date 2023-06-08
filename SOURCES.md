@@ -16,6 +16,12 @@ https://cdn.amazonlinux.com/_assets/11CF1F95C87F5B1A.asc
 
 AL2022 extracted from https://al2022-repos-us-west-2-9761ab97.s3.dualstack.us-west-2.amazonaws.com/blobstore/7e0773f1ec72808c44fc3c0ed5582f8046f03478205c93975893763d3238431c/system-release-2022.0.20220728-0.amzn2022.noarch.rpm
 
+## Azure Linux/CBL-Mariner
+
+https://raw.githubusercontent.com/microsoft/CBL-Mariner/main/SPECS/mariner-repos/MICROSOFT-RPM-GPG-KEY
+
+https://raw.githubusercontent.com/microsoft/CBL-Mariner/main/SPECS/mariner-repos/MICROSOFT-METADATA-GPG-KEY
+
 ## Centos keys
 
 https://www.centos.org/keys/

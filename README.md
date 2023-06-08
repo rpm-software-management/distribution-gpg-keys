@@ -7,6 +7,7 @@ GPG keys used by various Linux distributions to sign packages.
  * Anolis OS
  * Amazon Linux
  * Alma Linux
+ * Azure Linux/CBL-Mariner
  * CentOS
  * Circle Linux
  * EPEL
