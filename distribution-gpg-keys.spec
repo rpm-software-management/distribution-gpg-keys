@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.88
+Version:	1.89
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,10 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Fri Jun 16 2023 Pavel Raiskup <praiskup@redhat.com> 1.89-1
+- Update expired RPM-GPG-KEY-Mageia key
+- Add keys for Azure Linux
+
 * Sun May 28 2023 Miroslav Suchý <msuchy@redhat.com> 1.88-1
 - update copr keys
 - add per distro/version link to proper key for remi
