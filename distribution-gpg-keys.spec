@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.90
+Version:	1.91
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,9 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Thu Aug 10 2023 Miroslav Suchý <msuchy@redhat.com> 1.91-1
+- update Google key
+
 * Thu Aug 10 2023 Miroslav Suchý <msuchy@redhat.com> 1.90-1
 - add Fedora 41 key
 - Add source URL for AL2023
