@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.91
+Version:	1.92
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,11 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Mon Sep 04 2023 Miroslav Suchý <msuchy@redhat.com> 1.92-1
+- add symlinkg to rpmfusion 40 and 41
+- update copr keys
+- add remi fedora 39 link to 2023 key
+
 * Thu Aug 10 2023 Miroslav Suchý <msuchy@redhat.com> 1.91-1
 - update Google key
 
