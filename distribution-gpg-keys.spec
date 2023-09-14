@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.93
+Version:	1.94
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,9 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Thu Sep 14 2023 Miroslav Suchý <msuchy@redhat.com> 1.94-1
+- new release because testing new release process 
+
 * Thu Sep 14 2023 Miroslav Suchý <msuchy@redhat.com> 1.93-1
 - Add SUSE ALP signing keys
 - Add SLE 2023 signing keys
