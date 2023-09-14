@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.94
+Version:	1.95
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,9 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Thu Sep 14 2023 Miroslav Suchý <msuchy@redhat.com> 1.95-1
+- new release to test new release process 
+
 * Thu Sep 14 2023 Miroslav Suchý <msuchy@redhat.com> 1.94-1
 - new release because testing new release process 
 
