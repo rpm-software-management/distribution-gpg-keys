@@ -196,6 +196,12 @@ https://kohsuke.org/about/pgp/ (used by pre-2020 releases, see https://www.jenki
 
 http://www.jpackage.org/jpackage.asc
 
+## Kubernetes
+
+https://pkgs.k8s.io/core:/stable:/v1.28/rpm/repodata/repomd.xml.key
+
+https://kubernetes.io/blog/2023/08/15/pkgs-k8s-io-introduction/
+
 ## MariaDB
 
 https://mariadb.org/download/

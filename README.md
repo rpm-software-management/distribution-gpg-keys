@@ -47,6 +47,7 @@ and for third parties repos:
  * IUS
  * Jenkins
  * JPackage
+ * Kubernetes
  * MariaDB
  * MySQL
  * Microsoft
