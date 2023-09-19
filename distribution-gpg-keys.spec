@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.96
+Version:	1.97
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,16 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Tue Sep 19 2023 Miroslav Suchý <msuchy@redhat.com> 1.97-1
+- update copr keys
+- add script to check all keys
+- remove expired jenkins key
+- update expired intel security key
+- update expired navy linux key
+- update expired bluejeans key
+- add script to check expiration
+- Add the key for pkgs.k8s.io (Kubernetes)
+
 * Thu Sep 14 2023 Miroslav Suchý <msuchy@redhat.com> 1.96-1
 - Restructure openSUSE GPG keys
 
