@@ -83,7 +83,7 @@ https://access.redhat.com/security/team/key
 
 ## Navy Linux
 
-https://cdn.navylinux.org/RPM-GPG-KEY-navy-linux-official
+https://cdn.navylinux.org/RPM-GPG-KEY3-navy-official
 
 ## openSUSE
 
