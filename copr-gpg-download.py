@@ -15,13 +15,10 @@ def get_gpg(url):
 
 def gpg_out(isolate_file, file_name, response):
     if isolate_file:
-        if not path.isfile(file_name):
-            with open(file_name, "w") as file:
-                file.write(response)
+        with open(file_name, "w") as file:
+            file.write(response)
 
-            print("Saved {0}".format(file_name))
-        else:
-            print("Skipping {0} - already downloaded.".format(file_name))
+        print("Saved {0}".format(file_name))
     elif output_file:
         output_file.write(response)
     else:
