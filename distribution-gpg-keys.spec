@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.97
+Version:	1.98
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,11 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Thu Oct 12 2023 Miroslav Suchý <msuchy@redhat.com> 1.98-1
+- update copr keys
+- Add openSUSE Backports 2023 key
+- Update Amazon Linux 2023 public key
+
 * Tue Sep 19 2023 Miroslav Suchý <msuchy@redhat.com> 1.97-1
 - update copr keys
 - add script to check all keys
