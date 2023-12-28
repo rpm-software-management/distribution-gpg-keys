@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.98
+Version:	1.99
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,12 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Thu Dec 28 2023 Miroslav Suchý <msuchy@redhat.com> 1.99-1
+- update copr keys
+- Add Qubes OS 4.2 release key
+- Split AlmaLinux OS 8 GPG public keys to fix microdnf
+- Update AlmaLinux OS 8 public key
+
 * Thu Oct 12 2023 Miroslav Suchý <msuchy@redhat.com> 1.98-1
 - update copr keys
 - Add openSUSE Backports 2023 key
