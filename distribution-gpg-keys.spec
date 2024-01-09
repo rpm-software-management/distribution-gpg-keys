@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.99
+Version:	1.100
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,10 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Tue Jan 09 2024 Miroslav Suchý <msuchy@redhat.com> 1.100-1
+- update copr keys
+- Add remi 2024 Key
+
 * Thu Dec 28 2023 Miroslav Suchý <msuchy@redhat.com> 1.99-1
 - update copr keys
 - Add Qubes OS 4.2 release key
