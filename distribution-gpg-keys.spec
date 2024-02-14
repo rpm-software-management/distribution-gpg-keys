@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.100
+Version:	1.101
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,11 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Wed Feb 14 2024 Miroslav Suchý <msuchy@redhat.com>
+- add F42 key and move rawhide link
+- update copr keys
+- update postgresql keys
+
 * Tue Jan 09 2024 Miroslav Suchý <msuchy@redhat.com> 1.100-1
 - update copr keys
 - Add remi 2024 Key
