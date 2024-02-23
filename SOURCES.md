@@ -33,9 +33,23 @@ https://mirror.cclinux.org/pub/circle/8/RPM-GPG-KEY-circleofficial
 
 https://src.fedoraproject.org/rpms/fedora-repos/tree/rawhide
 
+## I2P keys
+
+https://geti2p.net/_static/idk.key.asc
+https://geti2p.net/_static/zzz.key.asc
+
+## Kicksecure & Whonix keys
+
+http://www.w5j6stm77zs6652pgsij4awcjeel3eco7kvipheu6mtr623eyyehj4yd.onion/keys/adrelanos.asc
+http://www.w5j6stm77zs6652pgsij4awcjeel3eco7kvipheu6mtr623eyyehj4yd.onion/keys/hulahoop.asc
+
 ## Mageia
 
 http://mirrors.kernel.org/mageia/distrib/cauldron/x86_64/media/core/release/media_info/pubkey
+
+## mkp224o key
+
+https://github.com/cathugger/mkp224o/issues/78#issuecomment-1142068306
 
 ## openEuler
 
