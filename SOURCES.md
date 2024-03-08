@@ -40,8 +40,8 @@ https://geti2p.net/_static/zzz.key.asc
 
 ## Kicksecure & Whonix keys
 
-http://www.w5j6stm77zs6652pgsij4awcjeel3eco7kvipheu6mtr623eyyehj4yd.onion/keys/adrelanos.asc
-http://www.w5j6stm77zs6652pgsij4awcjeel3eco7kvipheu6mtr623eyyehj4yd.onion/keys/hulahoop.asc
+https://www.kicksecure.com/keys/adrelanos.asc
+https://www.kicksecure.com/keys/hulahoop.asc
 
 ## Mageia
 
