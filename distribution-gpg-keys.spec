@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.101
+Version:	1.102
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,15 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Fri Mar 08 2024 Miroslav Suchý <msuchy@redhat.com> 1.102-1
+- update copr keys
+- Create cathugger.asc
+- Create zzz.key.asc
+- Create idk.key.asc
+- Create hulahoop.asc
+- Create adrelanos.asc
+- Create makemkv_pub.txt
+
 * Wed Feb 14 2024 Miroslav Suchý <msuchy@redhat.com>
 - add F42 key and move rawhide link
 - update copr keys
