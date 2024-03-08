@@ -33,11 +33,6 @@ https://mirror.cclinux.org/pub/circle/8/RPM-GPG-KEY-circleofficial
 
 https://src.fedoraproject.org/rpms/fedora-repos/tree/rawhide
 
-## I2P keys
-
-https://geti2p.net/_static/idk.key.asc
-https://geti2p.net/_static/zzz.key.asc
-
 ## Kicksecure & Whonix keys
 
 https://www.kicksecure.com/keys/adrelanos.asc
@@ -46,10 +41,6 @@ https://www.kicksecure.com/keys/hulahoop.asc
 ## Mageia
 
 http://mirrors.kernel.org/mageia/distrib/cauldron/x86_64/media/core/release/media_info/pubkey
-
-## mkp224o key
-
-https://github.com/cathugger/mkp224o/issues/78#issuecomment-1142068306
 
 ## openEuler
 
@@ -186,6 +177,11 @@ https://packages.cloud.google.com/yum/doc/yum-key.gpg
 
 https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg
 
+## I2P keys
+
+https://geti2p.net/_static/idk.key.asc
+https://geti2p.net/_static/zzz.key.asc
+
 ## IUS
 
 https://repo.ius.io/RPM-GPG-KEY-IUS-6
@@ -227,6 +223,10 @@ https://mariadb.org/download/
 ## Microsoft
 
 https://packages.microsoft.com/keys/microsoft.asc
+
+## mkp224o key
+
+https://github.com/cathugger/mkp224o/issues/78#issuecomment-1142068306
 
 ## Mullvad
 
