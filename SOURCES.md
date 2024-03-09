@@ -36,6 +36,7 @@ https://src.fedoraproject.org/rpms/fedora-repos/tree/rawhide
 ## Kicksecure & Whonix keys
 
 https://www.kicksecure.com/keys/adrelanos.asc
+
 https://www.kicksecure.com/keys/hulahoop.asc
 
 ## Mageia
@@ -167,6 +168,10 @@ https://artifacts.elastic.co/GPG-KEY-elasticsearch
 
 https://packages.element.io/
 
+## FFmpeg
+
+https://ffmpeg.org/ffmpeg-devel.asc
+
 ## Google
 
 https://dl-ssl.google.com/linux/linux_signing_key.pub
@@ -177,9 +182,10 @@ https://packages.cloud.google.com/yum/doc/yum-key.gpg
 
 https://packages.cloud.google.com/yum/doc/rpm-package-key.gpg
 
-## I2P keys
+## I2P
 
 https://geti2p.net/_static/idk.key.asc
+
 https://geti2p.net/_static/zzz.key.asc
 
 ## IUS
@@ -212,6 +218,12 @@ https://pkgs.k8s.io/core:/stable:/v1.28/rpm/repodata/repomd.xml.key
 
 https://kubernetes.io/blog/2023/08/15/pkgs-k8s-io-introduction/
 
+## Librewolf
+
+https://deb.librewolf.net/keyring.gpg
+
+https://rpm.librewolf.net/pubkey.gpg
+
 ## MakeMKV
 
 https://www.makemkv.com/makemkv_pub.txt
@@ -224,9 +236,13 @@ https://mariadb.org/download/
 
 https://packages.microsoft.com/keys/microsoft.asc
 
-## mkp224o key
+## mkp224o
 
 https://github.com/cathugger/mkp224o/issues/78#issuecomment-1142068306
+
+## Monero
+
+https://raw.githubusercontent.com/monero-project/monero/master/utils/gpg_keys/binaryfate.asc
 
 ## Mullvad
 
@@ -288,9 +304,17 @@ https://github.com/UnitedRPMs/unitedrpms/blob/master/URPMS-GPG-PUBLICKEY-Fedora-
 
 https://www.veracrypt.fr/en/Digital%20Signatures.html#VerifyPGPSignature
 
+## VideoLAN
+
+https://download.videolan.org/pub/keys/
+
 ## VirtualBox
 
 https://www.virtualbox.org/download/oracle_vbox.asc
+
+## yt-dlp
+
+https://raw.githubusercontent.com/yt-dlp/yt-dlp/master/public.key
 
 ## Zimbra
 
