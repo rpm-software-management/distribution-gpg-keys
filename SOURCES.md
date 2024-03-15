@@ -10,6 +10,10 @@ https://mirrors.openanolis.cn/anolis/RPM-GPG-KEY-ANOLIS
 
 https://repo.almalinux.org/almalinux/
 
+## Alpine Linux
+
+https://git.alpinelinux.org/aports/tree/main/alpine-keys
+
 ## Amazon Linux
 
 - AL2: https://cdn.amazonlinux.com/_assets/11CF1F95C87F5B1A.asc
@@ -95,6 +99,10 @@ https://cdn.navylinux.org/RPM-GPG-KEY3-navy-official
 https://build.opensuse.org/projects/openSUSE:Factory/public_key
 
 https://build.opensuse.org/projects/openSUSE:Backports/public_key
+
+## postmarketOS
+
+https://gitlab.com/postmarketOS/pmaports/-/tree/master/main/postmarketos-keys
 
 ## Scientific Linux
 
