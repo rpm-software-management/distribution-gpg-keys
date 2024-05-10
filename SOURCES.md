@@ -2,10 +2,6 @@
 
 # Distributions
 
-## Anolis OS
-
-https://mirrors.openanolis.cn/anolis/RPM-GPG-KEY-ANOLIS
-
 ## Alma Linux
 
 https://repo.almalinux.org/almalinux/
@@ -18,6 +14,10 @@ https://git.alpinelinux.org/aports/tree/main/alpine-keys
 
 - AL2: https://cdn.amazonlinux.com/_assets/11CF1F95C87F5B1A.asc
 - AL2023: https://cdn.amazonlinux.com/_assets/E951904AD832C631.asc
+
+## Anolis OS
+
+https://mirrors.openanolis.cn/anolis/RPM-GPG-KEY-ANOLIS
 
 ## Azure Linux/CBL-Mariner
 
@@ -67,10 +67,6 @@ see bottom of https://yum.oracle.com/faq.html
 
 https://keys.qubes-os.org/keys/
 
-## RosaLinux
-
-https://abf.io/import/rosa-repos/raw/rosa2019.1/RPM-GPG-KEY-ROSA
-
 ## Rocky Linux
 
 https://dl.rockylinux.org/pub/rocky/RPM-GPG-KEY-Rocky-8
@@ -82,6 +78,10 @@ https://dl.rockylinux.org/pub/rocky/RPM-GPG-KEY-Rocky-9
 https://dl.rockylinux.org/pub/rocky/RPM-GPG-KEY-Rocky-9-Testing
 
 https://dl.rockylinux.org/pub/rocky/RPM-GPG-KEY-rockyinfra
+
+## RosaLinux
+
+https://abf.io/import/rosa-repos/raw/rosa2019.1/RPM-GPG-KEY-ROSA
 
 ## EuroLinux
 
@@ -226,9 +226,7 @@ https://pkgs.k8s.io/core:/stable:/v1.28/rpm/repodata/repomd.xml.key
 
 https://kubernetes.io/blog/2023/08/15/pkgs-k8s-io-introduction/
 
-## Librewolf
-
-https://deb.librewolf.net/keyring.gpg
+## LibreWolf
 
 https://rpm.librewolf.net/pubkey.gpg
 
@@ -314,7 +312,7 @@ https://www.veracrypt.fr/en/Digital%20Signatures.html#VerifyPGPSignature
 
 ## VideoLAN
 
-https://download.videolan.org/pub/keys/
+https://download.videolan.org/pub/keys/7180713BE58D1ADC.asc
 
 ## VirtualBox
 
