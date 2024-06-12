@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.103
+Version:	1.104
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,10 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Wed Jun 12 2024 Miroslav Suchý <msuchy@redhat.com> 1.104-1
+- update copr keys
+- Add RPM-GPG-KEY-CentOS-Official-SHA256
+
 * Mon Jun 03 2024 Miroslav Suchý <msuchy@redhat.com> 1.103-1
 - update copr keys
 - add FFmpeg, LibreWolf, Monero, VideoLAN, and yt-dlp keys
