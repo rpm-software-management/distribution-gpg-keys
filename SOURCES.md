@@ -156,7 +156,7 @@ https://cpkg.datto.com/DATTO-LEGACYDIST-PKGS-GPG-KEY
 
 ## Dell
 
-http://linux.dell.com/repo/hardware/dsu/public.key
+https://linux.dell.com/files/pgp_pubkeys/
 
 ## Docker
 
