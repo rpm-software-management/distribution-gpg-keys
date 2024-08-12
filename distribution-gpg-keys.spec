@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.104
+Version:	1.105
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,11 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Mon Aug 12 2024 Miroslav Suchý <msuchy@redhat.com> 1.105-1
+- update copr keys
+- add fedora 43 keys and change rawhide symlink
+- Refresh GPG keys for Dell
+
 * Wed Jun 12 2024 Miroslav Suchý <msuchy@redhat.com> 1.104-1
 - update copr keys
 - Add RPM-GPG-KEY-CentOS-Official-SHA256
