@@ -1,6 +1,6 @@
 Name:		distribution-gpg-keys
 Version:	1.105
-Release:	1%{?dist}
+Release:	2%{?dist}
 Summary:	GPG keys of various Linux distributions
 
 License:	CC0-1.0
@@ -17,6 +17,8 @@ Suggests:	ubu-keyring
 Suggests:	debian-keyring
 Suggests:	archlinux-keyrings
 Suggests:   %{name}-copr
+Requires:       fedora-gpg-keys
+BuildRequires:  fedora-gpg-keys
 %endif
 
 %description
@@ -40,6 +42,19 @@ GPG keys used by Copr projects.
 %install
 mkdir -p %{buildroot}%{_datadir}/%{name}/
 cp -a keys/* %{buildroot}%{_datadir}/%{name}/
+%if 0%{?fedora} > 0
+# On Fedora link to system repo keys, if they are the same
+RPMKEYDIR=%{_sysconfdir}/pki/rpm-gpg/
+pushd %{buildroot}%{_datadir}/%{name}/fedora/
+for F in RPM-GPG-KEY-fedora-rawhide*
+do
+  if [ -r "${RPMKEYDIR}$F" ] && cmp -s "$F" "${RPMKEYDIR}$F"; then
+    rm -f "$F"
+    ln -vrs "%{buildroot}${RPMKEYDIR}$F" "$F"
+  fi
+done
+popd
+%endif
 
 
 %files
@@ -53,6 +68,9 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Fri Aug 16 2024 Petr Menšík <pemensik@redhat.com> - 1.105-2
+- Reuse fedora-gpg-keys when built on Fedora
+
 * Mon Aug 12 2024 Miroslav Suchý <msuchy@redhat.com> 1.105-1
 - update copr keys
 - add fedora 43 keys and change rawhide symlink
