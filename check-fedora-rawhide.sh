@@ -37,3 +37,4 @@ echo "Current Rawhide is release $VER"
 check_path rawhide $VER
 check_path rawhide+1 $((VER+1))
 check_path rawhide-1 $((VER-1))
+check_path rawhide-2 $((VER-2))
