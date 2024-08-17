@@ -46,7 +46,7 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 # On Fedora link to system repo keys, if they are the same
 RPMKEYDIR=%{_sysconfdir}/pki/rpm-gpg/
 pushd %{buildroot}%{_datadir}/%{name}/fedora/
-for F in RPM-GPG-KEY-fedora-rawhide*
+for F in RPM-GPG-KEY-fedora-*
 do
   if [ -r "${RPMKEYDIR}$F" ] && cmp -s "$F" "${RPMKEYDIR}$F"; then
     rm -f "$F"
