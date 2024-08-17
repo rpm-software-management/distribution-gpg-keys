@@ -18,3 +18,6 @@ jobs:
         # note: we only compare double digit keys not to be concerned with some of the historical cruft
         run: |
           diff -u <(ls -1 fedora-repos/RPM-GPG-KEY-fedora-??-primary | xargs -n 1 basename) <(ls -1 keys/fedora/RPM-GPG-KEY-fedora-??-primary | xargs -n 1 basename)
+      - name: Check rawhide key points to correct release key
+        run: |
+          diff -u <(awk '$1 == "%global" && $2 == "rawhide_release" { print "RPM-GPG-KEY-fedora-"$3"-primary" }' fedora-repos/fedora-repos.spec) <(readlink keys/fedora/RPM-GPG-KEY-fedora-rawhide-primary)
