@@ -25,12 +25,24 @@ check_path() {
 	fi
 }
 
-PKG_VER=$(dnf --repo=rawhide repoquery -q fedora-gpg-keys)
-if [ $? -ne 0 ]; then
-	echo "Failed to fetch keys"
+# Use the same algorithm as in github workflow
+git_rawhide_release() {
+	local REPOSDIR="$(mktemp -d)"
+	git clone -q https://src.fedoraproject.org/rpms/fedora-repos.git --depth 1 --branch rawhide "$REPOSDIR" >/dev/null
+	awk '$1 == "%global" && $2 == "rawhide_release" { print $3 }' "$REPOSDIR/fedora-repos.spec" && rm -rf "$REPOSDIR"
+}
+
+dnf_rawhide_release() {
+	PKG_VER=$(dnf --repo=rawhide repoquery -q fedora-gpg-keys)
+	echo "${PKG_VER#$PKG}" | cut -d- -f2 | cut -d: -f2
+}
+
+VER=$(git_rawhide_release)
+echo "Release: $VER"
+if ! [ "$VER" -gt 0 ]; then
+	echo "Failed to obtain rawhide release"
 	exit 1
 fi
-VER=$(echo "${PKG_VER#$PKG}" | cut -d- -f2 | cut -d: -f2)
 
 echo "Current Rawhide is release $VER"
 
