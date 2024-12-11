@@ -1,13 +1,13 @@
 specfile_path: distribution-gpg-keys.spec
 
-synced_files:
+files_to_sync:
   # Copy a file from root of the upstream repo to dist-git.
   - distribution-gpg-keys.spec
   # If you copy packit.yaml downstream, you can then take advantage of
   # `sync-from-downstream` command.
   - .packit.yaml
 
-upstream_project_name: distribution-gpg-keys
+upstream_package_name: distribution-gpg-keys
 
 downstream_package_name: distribution-gpg-keys
 
