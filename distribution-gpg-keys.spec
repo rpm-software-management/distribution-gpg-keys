@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.107
+Version:	1.108
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,11 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Fri Jan 31 2025 Miroslav Suchý <msuchy@redhat.com> 1.108-1
+- update copr keys
+- alma: Add AlmaLinux 10 key
+- add Remi 2025 key
+
 * Wed Jan 15 2025 Miroslav Suchý <msuchy@redhat.com> 1.107-1
 - Add Fedora 44 key
 - Update Mageia gpg key
