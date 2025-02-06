@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.108
+Version:	1.109
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,11 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Thu Feb 06 2025 Miroslav Suchý <msuchy@redhat.com> 1.109-1
+- update copr keys
+- fedora: Update rawhide symlink
+- Update keys for Azure Linux and Kylin
+
 * Fri Jan 31 2025 Miroslav Suchý <msuchy@redhat.com> 1.108-1
 - update copr keys
 - alma: Add AlmaLinux 10 key
