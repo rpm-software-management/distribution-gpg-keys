@@ -19,11 +19,15 @@ https://git.alpinelinux.org/aports/tree/main/alpine-keys
 
 https://mirrors.openanolis.cn/anolis/RPM-GPG-KEY-ANOLIS
 
-## Azure Linux/CBL-Mariner
+## Azure Linux 2.0 (CBL-Mariner 2.0)
 
-https://raw.githubusercontent.com/microsoft/CBL-Mariner/main/SPECS/mariner-repos/MICROSOFT-RPM-GPG-KEY
+https://raw.githubusercontent.com/microsoft/azurelinux/refs/heads/2.0/SPECS/mariner-repos/MICROSOFT-RPM-GPG-KEY
 
-https://raw.githubusercontent.com/microsoft/CBL-Mariner/main/SPECS/mariner-repos/MICROSOFT-METADATA-GPG-KEY
+https://raw.githubusercontent.com/microsoft/azurelinux/refs/heads/2.0/SPECS/mariner-repos/MICROSOFT-METADATA-GPG-KEY
+
+## Azure Linux 3
+
+https://raw.githubusercontent.com/microsoft/azurelinux/refs/heads/3.0/SPECS/azurelinux-repos/MICROSOFT-RPM-GPG-KEY (same RPM key of Azure Linux 2)
 
 ## Centos keys
 
@@ -42,6 +46,10 @@ https://src.fedoraproject.org/rpms/fedora-repos/tree/rawhide
 https://www.kicksecure.com/keys/adrelanos.asc
 
 https://www.kicksecure.com/keys/hulahoop.asc
+
+## Kylin
+
+Extracted from https://update.cs2c.com.cn/NS/V10/V10SP3-2403/os/adv/lic/base/x86_64/Packages/kylin-gpg-keys-1.0-2.4.p21.ky10.x86_64.rpm
 
 ## Mageia
 
