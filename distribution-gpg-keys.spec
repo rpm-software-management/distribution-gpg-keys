@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.109
+Version:	1.110
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,11 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Fri Feb 14 2025 Pavel Raiskup <praiskup@redhat.com> 1.110-1
+- Add keys for el-10 rpmfusion-free and nonfree
+- Add symlinks to rpmfusion 42 and 43
+- Navy Linux GPG key Update
+
 * Thu Feb 06 2025 Miroslav Suchý <msuchy@redhat.com> 1.109-1
 - update copr keys
 - fedora: Update rawhide symlink
