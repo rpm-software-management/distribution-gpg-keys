@@ -17,6 +17,7 @@ GPG keys used by various Linux distributions to sign packages.
  * openEuler
  * OpenMandriva
  * OpenSuse
+ * OpenWRT
  * Oracle Linux
  * Qubes
  * Rocky Linux

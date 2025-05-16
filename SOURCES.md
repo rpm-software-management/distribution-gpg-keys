@@ -67,6 +67,10 @@ http://mirrors.kernel.org/mageia/distrib/cauldron/x86_64/media/core/release/medi
 
 https://raw.githubusercontent.com/OpenMandrivaAssociation/openmandriva-repos/master/RPM-GPG-KEY-OpenMandriva
 
+## OpenWRT
+
+https://openwrt.org/docs/guide-user/security/signatures
+
 ## Oracle Linux
 
 see bottom of https://yum.oracle.com/faq.html
