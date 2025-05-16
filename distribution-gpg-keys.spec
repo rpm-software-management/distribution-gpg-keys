@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.110
+Version:	1.111
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,12 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Fri May 16 2025 Miroslav Suchý <msuchy@redhat.com> 1.111-1
+- add link to sources of OpenWRT
+- update copr keys
+- Add OpenWrt keys
+- Add RHEL 10 keys
+
 * Fri Feb 14 2025 Pavel Raiskup <praiskup@redhat.com> 1.110-1
 - Add keys for el-10 rpmfusion-free and nonfree
 - Add symlinks to rpmfusion 42 and 43
