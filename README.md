@@ -13,6 +13,7 @@ GPG keys used by various Linux distributions to sign packages.
  * EPEL
  * EuroLinux
  * Fedora
+ * FreeBSD
  * Mageia
  * openEuler
  * OpenMandriva

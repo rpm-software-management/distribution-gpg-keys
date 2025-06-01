@@ -41,6 +41,11 @@ https://mirror.cclinux.org/pub/circle/8/RPM-GPG-KEY-circleofficial
 
 https://src.fedoraproject.org/rpms/fedora-repos/tree/rawhide
 
+## FreeBSD
+
+https://cgit.freebsd.org/doc/plain/documentation/static/pgpkeys/cperciva.key
+Colin Percival is the FreeBSD release engineer and at present FreeBSD releases are signed by him.
+
 ## Kicksecure & Whonix keys
 
 https://www.kicksecure.com/keys/adrelanos.asc
