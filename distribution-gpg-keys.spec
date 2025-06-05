@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.111
+Version:	1.112
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,11 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Thu Jun 05 2025 Neal Gompa <neal@gompa.dev> 1.112-1
+- Add FreeBSD keys
+- Fix AlmaLinux name and alphabetical ordering of distros
+- Add AlmaLinux EPEL AltArch Key
+
 * Fri May 16 2025 Miroslav Suchý <msuchy@redhat.com> 1.111-1
 - add link to sources of OpenWRT
 - update copr keys
