@@ -94,6 +94,10 @@ https://dl.rockylinux.org/pub/rocky/RPM-GPG-KEY-Rocky-9
 
 https://dl.rockylinux.org/pub/rocky/RPM-GPG-KEY-Rocky-9-Testing
 
+https://dl.rockylinux.org/pub/rocky/RPM-GPG-KEY-Rocky-10
+
+https://dl.rockylinux.org/pub/rocky/RPM-GPG-KEY-Rocky-10-Testing
+
 https://dl.rockylinux.org/pub/rocky/RPM-GPG-KEY-rockyinfra
 
 ## RosaLinux
