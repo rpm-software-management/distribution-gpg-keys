@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.112
+Version:	1.113
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,9 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Tue Jun 17 2025 Pavel Raiskup <praiskup@redhat.com> 1.113-1
+- Add Rocky Linux 10 keys
+
 * Thu Jun 05 2025 Neal Gompa <neal@gompa.dev> 1.112-1
 - Add FreeBSD keys
 - Fix AlmaLinux name and alphabetical ordering of distros
