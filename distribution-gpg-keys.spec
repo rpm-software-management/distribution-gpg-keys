@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.113
+Version:	1.114
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,9 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Fri Aug 08 2025 Pavel Raiskup <praiskup@redhat.com> 1.114-1
+- Add Fedora 45 key
+
 * Tue Jun 17 2025 Pavel Raiskup <praiskup@redhat.com> 1.113-1
 - Add Rocky Linux 10 keys
 
