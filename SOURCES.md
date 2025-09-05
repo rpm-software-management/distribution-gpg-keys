@@ -263,6 +263,10 @@ https://mariadb.org/download/
 
 https://packages.microsoft.com/keys/microsoft.asc
 
+https://packages.microsoft.com/keys/microsoft-2025.asc
+
+https://packages.microsoft.com/keys/msopentech.asc
+
 ## mkp224o
 
 https://github.com/cathugger/mkp224o/issues/78#issuecomment-1142068306
