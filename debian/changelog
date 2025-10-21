@@ -1,3 +1,278 @@
+distribution-gpg-keys (1.114-1) unstable; urgency=medium
+
+  * Add Fedora 45 key.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Fri, 08 Aug 2025 18:16:10 -0000
+
+distribution-gpg-keys (1.113-1) unstable; urgency=medium
+
+  * Add Rocky Linux 10 keys.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, 17 Jun 2025 18:16:10 -0000
+
+distribution-gpg-keys (1.112-1) unstable; urgency=medium
+
+  * Add FreeBSD keys.
+  * Fix AlmaLinux name and alphabetical ordering of distros.
+  * Add AlmaLinux EPEL AltArch Key.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, 05 Jun 2025 18:16:10 -0000
+
+distribution-gpg-keys (1.111-1) unstable; urgency=medium
+
+  * add link to sources of OpenWRT.
+  * update copr keys.
+  * Add OpenWrt keys.
+  * Add RHEL 10 keys.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Fri, 16 May 2025 18:16:10 -0000
+
+distribution-gpg-keys (1.110-1) unstable; urgency=medium
+
+  * Add keys for el-10 rpmfusion-free and nonfree.
+  * Add symlinks to rpmfusion 42 and 43.
+  * Navy Linux GPG key Update.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Fri, 14 Feb 2025 18:16:10 -0000
+
+distribution-gpg-keys (1.109-1) unstable; urgency=medium
+
+  * update copr keys.
+  * fedora: Update rawhide symlink.
+  * Update keys for Azure Linux and Kylin.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, 06 Feb 2025 18:16:10 -0000
+
+distribution-gpg-keys (1.108-1) unstable; urgency=medium
+
+  * update copr keys.
+  * alma: Add AlmaLinux 10 key.
+  * add Remi 2025 key.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Fri, 31 Jan 2025 18:16:10 -0000
+
+distribution-gpg-keys (1.107-1) unstable; urgency=medium
+
+  * Add Fedora 44 key.
+  * Update Mageia gpg key.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Wed, 15 Jan 2025 18:16:10 -0000
+
+distribution-gpg-keys (1.106-1) unstable; urgency=medium
+
+  * update copr keys.
+  * add link for remi/EL-10 key.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Mon, 02 Dec 2024 18:16:10 -0000
+
+distribution-gpg-keys (1.105-1) unstable; urgency=medium
+
+  * update copr keys.
+  * add fedora 43 keys and change rawhide symlink.
+  * Refresh GPG keys for Dell.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Mon, 12 Aug 2024 18:16:10 -0000
+
+distribution-gpg-keys (1.104-1) unstable; urgency=medium
+
+  * update copr keys.
+  * Add RPM-GPG-KEY-CentOS-Official-SHA256.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Wed, 12 Jun 2024 18:16:10 -0000
+
+distribution-gpg-keys (1.103-1) unstable; urgency=medium
+
+  * update copr keys.
+  * add FFmpeg, LibreWolf, Monero, VideoLAN, and yt-dlp keys.
+  * Add CentOS 10 and EPEL 10 GPG keys.
+  * add Alpine Linux and postmarketOS keys.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Mon, 03 Jun 2024 18:16:10 -0000
+
+distribution-gpg-keys (1.102-1) unstable; urgency=medium
+
+  * update copr keys.
+  * Create cathugger.asc.
+  * Create zzz.key.asc.
+  * Create idk.key.asc.
+  * Create hulahoop.asc.
+  * Create adrelanos.asc.
+  * Create makemkv_pub.txt.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Fri, 08 Mar 2024 18:16:10 -0000
+
+distribution-gpg-keys (1.101-1) unstable; urgency=medium
+
+  * update copr keys.
+  * Add remi 2024 Key.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Wed, 14 Feb 2024 18:16:10 -0000
+
+distribution-gpg-keys (1.100-1) unstable; urgency=medium
+
+  * update copr keys.
+  * Add remi 2024 Key.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Tue, 09 Jan 2024 18:16:10 -0000
+
+distribution-gpg-keys (1.99-1) unstable; urgency=medium
+
+  * update copr keys.
+  * Add Qubes OS 4.2 release key.
+  * Split AlmaLinux OS 8 GPG public keys to fix microdnf.
+  * Update AlmaLinux OS 8 public key.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, 28 Dec 2023 18:16:10 -0000
+
+distribution-gpg-keys (1.98-1) unstable; urgency=medium
+
+  * update copr keys.
+  * Add openSUSE Backports 2023 key.
+  * remove expired jenkins key.
+  * Update Amazon Linux 2023 public key.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, 12 Oct 2023 18:16:10 -0000
+
+distribution-gpg-keys (1.97-1) unstable; urgency=medium
+
+  * update copr keys.
+  * add script to check all keys.
+  * remove expired jenkins key.
+  * update expired intel security key.
+  * update expired navy linux key.
+  * update expired bluejeans key.
+  * add script to check expiration.
+  * Add the key for pkgs.k8s.io (Kubernetes).
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, 14 Sep 2023 18:16:10 -0000
+
+distribution-gpg-keys (1.96-1) unstable; urgency=medium
+
+  * Restructure openSUSE GPG keys.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, 14 Sep 2023 18:16:10 -0000
+
+distribution-gpg-keys (1.95-1) unstable; urgency=medium
+
+  * new release because testing new release process.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, 14 Sep 2023 18:16:10 -0000
+
+distribution-gpg-keys (1.94-1) unstable; urgency=medium
+
+  * new release because testing new release process.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, 04 Sep 2023 18:16:10 -0000
+
+distribution-gpg-keys (1.93-1) unstable; urgency=medium
+
+  * Add SUSE ALP signing keys.
+  * Add SLE 2023 signing keys.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, 14 Sep 2023 18:16:10 -0000
+
+distribution-gpg-keys (1.92-1) unstable; urgency=medium
+
+  * add symlinkg to rpmfusion 40 and 41.
+  * update copr keys.
+  * add remi fedora 39 link to 2023 key.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, 10 Aug 2023 18:16:10 -0000
+
+distribution-gpg-keys (1.91-1) unstable; urgency=medium
+
+  * update Google key.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, 10 Aug 2023 18:16:10 -0000
+
+distribution-gpg-keys (1.90-1) unstable; urgency=medium
+
+  * add Fedora 41 key.
+  * Add source URL for AL2023.
+  * update copr keys.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, 10 Aug 2023 18:16:10 -0000
+
+distribution-gpg-keys (1.89-1) unstable; urgency=medium
+
+  * Update expired RPM-GPG-KEY-Mageia key.
+  * Add keys for Azure Linux.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Fri, 16 Jun 2023 18:16:10 -0000
+
+distribution-gpg-keys (1.88-1) unstable; urgency=medium
+
+  * update copr keys.
+  * add per distro/version link to proper key for remi.
+  * update brave keys.
+  * add Docker key.
+  * add mullvad key.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Sun, 28 May 2023 18:16:10 -0000
+
+distribution-gpg-keys (1.87-1) unstable; urgency=medium
+
+  * update copr keys.
+  * update virtualbox key.
+  * update openSUSE-Backports key.
+  * Add keys for Google Cloud.
+  * Add VeraCrypt keys.
+  * update skype key.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Wed, 26 Apr 2023 18:16:10 -0000
+
+distribution-gpg-keys (1.86-1) unstable; urgency=medium
+
+  * update copr keys.
+  * Add Jenkins 2023.
+  * Add keys for Bacula & Baculum.
+  * Add keys for Google Cloud.
+  * Add VeraCrypt keys.
+  * add Element keys.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Wed, 05 Apr 2023 18:16:10 -0000
+
+distribution-gpg-keys (1.85-1) unstable; urgency=medium
+
+  * update copr keys.
+  * Add Amazon Linux 2023 and remove Amazon Linux 2022 key.
+  * add AnyDesk GPG key.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, 09 Mar 2023 18:16:10 -0000
+
+distribution-gpg-keys (1.84-1) unstable; urgency=medium
+
+  * add tumbleweed key.
+  * Added RPM Fusion keys for Fedora 39.
+  * update copr keys.
+  * add elastic gpg key.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Thu, 16 Feb 2023 18:16:10 -0000
+
+distribution-gpg-keys (1.82-1) unstable; urgency=medium
+
+  * move symlink of fedora-rawhide to fedora-39.
+  * add openEuler new key.
+  * update copr keys.
+  * add fedora 40 gpg key.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Mon, 30 Jan 2023 18:16:10 -0000
+
+distribution-gpg-keys (1.81-1) unstable; urgency=medium
+
+  * update copr keys.
+  * Add remi 2023 key.
+  * add TeamViewer key.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Fri, 06 Jan 2023 18:16:10 -0000
+
+distribution-gpg-keys (1.80-1) unstable; urgency=medium
+
+  * add SME Server keys.
+  * update copr keys.
+
+ -- Miroslav Suchý <msuchy@redhat.com>  Fri, 16 Dec 2022 18:16:10 -0000
+
 distribution-gpg-keys (1.79-2) unstable; urgency=medium
 
   * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository-Browse.
