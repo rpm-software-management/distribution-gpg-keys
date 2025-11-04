@@ -118,9 +118,11 @@ https://cdn.navylinux.org/RPM-GPG-KEY3-navy-official
 
 ## openSUSE
 
-https://build.opensuse.org/projects/openSUSE:Factory/public_key
+https://build.opensuse.org/projects/openSUSE:Factory/signing_keys
 
-https://build.opensuse.org/projects/openSUSE:Backports/public_key
+https://build.opensuse.org/projects/openSUSE:Backports/signing_keys
+
+https://build.opensuse.org/projects/openSUSE:Backports:SLE-16.0/signing_keys
 
 ## postmarketOS
 
@@ -136,6 +138,7 @@ http://ftp1.scientificlinux.org/linux/scientific/7x/x86_64/os/RPM-GPG-KEY-sl7
 
 https://www.suse.com/support/security/keys/
 
+This repository contains the ALP (Adaptable Linux Platform) signing keys used also in openSUSE Leap 16.
 
 # Third parties repos
 
