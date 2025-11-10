@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.114
+Version:	1.115
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,14 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Mon Nov 10 2025 Miroslav Suchý <msuchy@redhat.com> 1.115-1
+- update copr keys
+- Update for openSUSE 16 keys
+- Update changelog
+- Microsoft: add 2025 & open tech keys
+- alpine-linux: Add loongarch64 key
+- fedora: Update rawhide symlink
+
 * Fri Aug 08 2025 Pavel Raiskup <praiskup@redhat.com> 1.114-1
 - Add Fedora 45 key
 
