@@ -320,6 +320,10 @@ https://pkgs.rpmfusion.org/cgit/nonfree/rpmfusion-nonfree-release.git/tree/
 
 https://repo.skype.com/data/SKYPE-GPG-KEY
 
+## Slack
+
+https://slack.com/gpg/slack_pubkey_20240822.gpg
+
 ## SME Server
 
 http://mirror.canada.pialasse.com/releases/10/smeos/x86_64/
