@@ -323,6 +323,7 @@ https://repo.skype.com/data/SKYPE-GPG-KEY
 ## Slack
 
 https://slack.com/gpg/slack_pubkey_20240822.gpg
+https://slack.com/gpg/slack_pubkey_20251016.gpg
 
 ## SME Server
 
