@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.115
+Version:	1.116
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,17 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Tue Jan 27 2026 Pavel Raiskup <pavel@raiskup.cz> 1.116-1
+- Add CentOS PQC signing keys
+- Add RHEL PQC signing keys
+- suse: Update RPM-GPG-KEY-SuSE-SLE-12
+- Refresh CentOS SIG Extras key
+- Update CentOS SIG keys downlod script
+- Add missing CentOS SIG keys
+- Add new Slack key used by versions 4.47 and above
+- Add openSUSE Leap SLE imports
+- Add Slack key
+
 * Mon Nov 10 2025 Miroslav Suchý <msuchy@redhat.com> 1.115-1
 - update copr keys
 - Update for openSUSE 16 keys
