@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.116
+Version:	1.117
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,11 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Tue Feb 03 2026 Pavel Raiskup <pavel@raiskup.cz> 1.117-1
+- Add Fedora 46 key
+- Add Remi's key for 2026 (Fedora 44 and 45)
+- update copr keys
+
 * Tue Jan 27 2026 Pavel Raiskup <pavel@raiskup.cz> 1.116-1
 - Add CentOS PQC signing keys
 - Add RHEL PQC signing keys
