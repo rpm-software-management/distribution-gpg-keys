@@ -4,9 +4,9 @@ Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
 License:	CC0-1.0
-URL:		https://github.com/xsuchy/distribution-gpg-keys
+URL:		https://github.com/rpm-software-management/distribution-gpg-keys
 # Sources can be obtained by
-# git clone git://github.com/xsuchy/distribution-gpg-keys.git
+# git git://github.com/rpm-software-management/distribution-gpg-keys.git
 # cd distribution-gpg-keys
 # tito build --tgz
 Source0:	%{name}-%{version}.tar.gz
