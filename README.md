@@ -59,6 +59,7 @@ and for third parties repos:
  * Skype
  * SME Server
  * TeamViewer
+ * Terra
  * UnitedRPMs
  * VeraCrypt
  * VirtualBox
