@@ -140,6 +140,10 @@ https://www.suse.com/support/security/keys/
 
 This repository contains the ALP (Adaptable Linux Platform) signing keys used also in openSUSE Leap 16.
 
+## Ultramarine
+
+https://github.com/Ultramarine-Linux/packages/tree/umrawhide/ultramarine/gpg-keys
+
 # Third parties repos
 
 ## Adobe
