@@ -335,6 +335,10 @@ https://community.teamviewer.com/English/kb/articles/30708-install-teamviewer-on
 
 https://download.teamviewer.com/download/linux/signature/TeamViewer2017.asc
 
+## Terra
+
+https://github.com/terrapkg/packages/tree/frawhide/anda/terra/gpg-keys
+
 ## UnitedRPMs
 
 https://github.com/UnitedRPMs/unitedrpms/blob/master/URPMS-GPG-PUBLICKEY-Fedora-24
