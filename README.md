@@ -28,6 +28,7 @@ GPG keys used by various Linux distributions to sign packages.
  * Navy Linux
  * Scientific Linux
  * United RPMs
+ * Ultramarine
 
 and for third parties repos:
 
