@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.118
+Version:	1.119
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,12 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Sat Mar 28 2026 Miroslav Suchý <msuchy@redhat.com> 1.119-1
+- update copr keys
+- add: ultramarine repository keys
+- add: terra repository keys
+- update Google key block
+
 * Sat Mar 07 2026 Miroslav Suchý <msuchy@redhat.com> 1.118-1
 - update copr keys
 - Add symlinks to rpmfusion 44, 45 and 46
