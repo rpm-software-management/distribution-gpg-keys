@@ -37,6 +37,10 @@ https://www.centos.org/keys/
 
 https://mirror.cclinux.org/pub/circle/8/RPM-GPG-KEY-circleofficial
 
+## EndeavourOS
+
+https://github.com/endeavouros-team/keyring/blob/main/endeavouros.gpg
+
 ## Fedora & Epel keys
 
 https://src.fedoraproject.org/rpms/fedora-repos/tree/rawhide
@@ -45,6 +49,12 @@ https://src.fedoraproject.org/rpms/fedora-repos/tree/rawhide
 
 https://cgit.freebsd.org/doc/plain/documentation/static/pgpkeys/cperciva.key
 Colin Percival is the FreeBSD release engineer and at present FreeBSD releases are signed by him.
+
+## Linux Mint
+
+https://keys.openpgp.org/vks/v1/by-fingerprint/27DEB15644C6B3CF3BD7D291300F846BA25BAE09
+
+As referenced by https://github.com/linuxmint/doc-installation-guide/blob/master/docs/verify.rst
 
 ## Kicksecure & Whonix keys
 
@@ -139,6 +149,10 @@ http://ftp1.scientificlinux.org/linux/scientific/7x/x86_64/os/RPM-GPG-KEY-sl7
 https://www.suse.com/support/security/keys/
 
 This repository contains the ALP (Adaptable Linux Platform) signing keys used also in openSUSE Leap 16.
+
+## Tuxedo OS
+
+http://deb.tuxedocomputers.com/0x54840598.pub.asc
 
 ## Ultramarine
 

@@ -10,10 +10,12 @@ GPG keys used by various Linux distributions to sign packages.
  * Azure Linux/CBL-Mariner
  * CentOS
  * Circle Linux
+ * EndeavourOS
  * EPEL
  * EuroLinux
  * Fedora
  * FreeBSD
+ * Linux Mint
  * Mageia
  * openEuler
  * OpenMandriva
@@ -27,6 +29,7 @@ GPG keys used by various Linux distributions to sign packages.
  * RPM Fusion
  * Navy Linux
  * Scientific Linux
+ * Tuxedo OS
  * United RPMs
  * Ultramarine
 
