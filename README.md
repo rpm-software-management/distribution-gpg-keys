@@ -17,6 +17,7 @@ GPG keys used by various Linux distributions to sign packages.
  * FreeBSD
  * Linux Mint
  * Mageia
+ * NetBSD
  * openEuler
  * OpenMandriva
  * OpenSuse
