@@ -60,6 +60,11 @@ Extracted from https://update.cs2c.com.cn/NS/V10/V10SP3-2403/os/adv/lic/base/x86
 
 http://mirrors.kernel.org/mageia/distrib/cauldron/x86_64/media/core/release/media_info/pubkey
 
+## NetBSD
+
+https://cdn.netbsd.org/pub/NetBSD/security/PGP/security-officer@netbsd.org.asc
+and verified to have the same fingerprint as the key on developer-only CVS.
+
 ## openEuler
 
   *  OBS generated key
