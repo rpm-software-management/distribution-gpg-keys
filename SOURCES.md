@@ -352,6 +352,10 @@ https://slack.com/gpg/slack_pubkey_20251016.gpg
 
 http://mirror.canada.pialasse.com/releases/10/smeos/x86_64/
 
+## Teams For Linux
+
+https://repo.teamsforlinux.de/teams-for-linux.asc
+
 ## TeamViewer
 
 https://community.teamviewer.com/English/kb/articles/30708-install-teamviewer-on-red-hat-and-centos

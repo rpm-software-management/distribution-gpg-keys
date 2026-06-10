@@ -63,6 +63,7 @@ and for third parties repos:
  * Remi's
  * Skype
  * SME Server
+ * Teams For Linux
  * TeamViewer
  * Terra
  * UnitedRPMs
