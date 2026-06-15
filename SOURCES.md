@@ -95,6 +95,16 @@ https://openwrt.org/docs/guide-user/security/signatures
 
 see bottom of https://yum.oracle.com/faq.html
 
+https://yum.oracle.com/RPM-GPG-KEY-oracle-ol6
+
+https://yum.oracle.com/RPM-GPG-KEY-oracle-ol7
+
+https://yum.oracle.com/RPM-GPG-KEY-oracle-ol8
+
+https://yum.oracle.com/RPM-GPG-KEY-oracle-ol9
+
+https://yum.oracle.com/RPM-GPG-KEY-oracle-ol10
+
 ## Qubes' repositories
 
 https://keys.qubes-os.org/keys/
