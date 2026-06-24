@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-from os import path, remove
+from os import path, remove, listdir
 from argparse import RawTextHelpFormatter, ArgumentParser
 from requests import get
 from copr.v3 import Client
@@ -26,6 +26,7 @@ def gpg_out(isolate_file, file_name, response):
 
 
 def main():
+    seen_files = set()
     projects = cli.project_proxy.get_list(ownername=None, pagination={"limit": 100})
     while projects:
         if not projects:
@@ -33,6 +34,7 @@ def main():
 
         for project in projects:
             file_name = args.path + "copr-{0}-{1}.gpg".format(project.ownername, project.name)
+            seen_files.add(path.basename(file_name))
             url = be_url_tmpl.format(**{'username': project.ownername,
                                         'project_name': project.name})
             response = get_gpg(url)
@@ -42,6 +44,17 @@ def main():
                 gpg_out(args.isolate_files, file_name, response)
 
         projects = next_page(projects)
+
+    cleanup_stale_files(args.path, seen_files)
+
+
+def cleanup_stale_files(directory, seen_files):
+    for existing in listdir(directory):
+        if existing.startswith("copr-") and existing.endswith(".gpg"):
+            if existing not in seen_files:
+                full_path = path.join(directory, existing)
+                print("Deleting {0} - project no longer in Copr.".format(full_path))
+                remove(full_path)
 
 
 def not_found(file_name):
