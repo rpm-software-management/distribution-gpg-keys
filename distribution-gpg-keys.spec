@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.119
+Version:	1.120
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,14 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Thu Jul 23 2026 Pavel Raiskup <pavel@raiskup.cz> 1.120-1
+- Update RPM-GPG-KEY-openSUSE-2022
+- add Teams for Linux repository key
+- add Oracle Linux 10 key
+- Add NetBSD security officer key
+- update copr keys
+- Added EndeavourOS, Tuxedo OS, and Linux Mint keys
+
 * Sat Mar 28 2026 Miroslav Suchý <msuchy@redhat.com> 1.119-1
 - update copr keys
 - add: ultramarine repository keys
