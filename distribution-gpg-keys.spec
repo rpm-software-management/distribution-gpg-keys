@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.120
+Version:	1.121
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,10 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Tue Aug 11 2026 Miroslav Suchý <msuchy@redhat.com> 1.121-1
+- add RPM-GPG-KEY-fedora-47-primary
+- update copr keys
+
 * Thu Jul 23 2026 Pavel Raiskup <pavel@raiskup.cz> 1.120-1
 - Update RPM-GPG-KEY-openSUSE-2022
 - add Teams for Linux repository key
