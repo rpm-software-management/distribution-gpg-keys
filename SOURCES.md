@@ -14,6 +14,7 @@ https://git.alpinelinux.org/aports/tree/main/alpine-keys
 
 - AL2: https://cdn.amazonlinux.com/_assets/11CF1F95C87F5B1A.asc
 - AL2023: https://cdn.amazonlinux.com/_assets/E951904AD832C631.asc
+- AL2027: https://cdn-al2027.amazonlinux.com/_assets/5408EAA4B1E92E3D.asc
 
 ## Anolis OS
 
