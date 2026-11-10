@@ -150,6 +150,8 @@ https://build.opensuse.org/projects/openSUSE:Backports/signing_keys
 
 https://build.opensuse.org/projects/openSUSE:Backports:SLE-16.0/signing_keys
 
+`RPM-GPG-KEY-openSUSE-Leap-SLE` is the SUSE `RPM-GPG-KEY-SuSE-SLE-Main-2023` key, see SUSE below.
+
 ## postmarketOS
 
 https://gitlab.com/postmarketOS/pmaports/-/tree/master/main/postmarketos-keys
@@ -165,6 +167,19 @@ http://ftp1.scientificlinux.org/linux/scientific/7x/x86_64/os/RPM-GPG-KEY-sl7
 https://www.suse.com/support/security/keys/
 
 This repository contains the ALP (Adaptable Linux Platform) signing keys used also in openSUSE Leap 16.
+
+The page above still has the SHA-1 self-signed versions of `RPM-GPG-KEY-SuSE-ALP-Main` and `RPM-GPG-KEY-SuSE-SLE-Main-2023`. The SHA-256 re-signed versions are shipped by the `suse-build-key` package of SLES 15 SP7 (`12.0-150000.8.64.1`), SLES 16.0 (`12.0-160000.4.1`) and SLES 16.1 (`12.0-160100.2.1`):
+
+* `RPM-GPG-KEY-SuSE-ALP-Main`: `/usr/lib/rpm/gnupg/keys/gpg-pubkey-09d9ea69-68595a8c.asc` (SUSE 16 Package Signing Key)
+* `RPM-GPG-KEY-SuSE-SLE-Main-2023`: `/usr/lib/rpm/gnupg/keys/gpg-pubkey-3fa1d6ce-67c856ee.asc` (SUSE Package Signing Key)
+
+The same files are publicly available from the package sources and from openSUSE Leap 16.0:
+
+https://src.opensuse.org/pool/suse-build-key/raw/branch/factory/gpg-pubkey-09d9ea69-68595a8c.asc
+
+https://src.opensuse.org/pool/suse-build-key/raw/branch/factory/gpg-pubkey-3fa1d6ce-67c856ee.asc
+
+https://download.opensuse.org/distribution/leap/16.0/repo/oss/noarch/suse-build-key-12.0-160000.4.1.noarch.rpm
 
 ## Tuxedo OS
 
