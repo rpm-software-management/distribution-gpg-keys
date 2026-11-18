@@ -1,5 +1,5 @@
 Name:		distribution-gpg-keys
-Version:	1.123
+Version:	1.124
 Release:	1%{?dist}
 Summary:	GPG keys of various Linux distributions
 
@@ -53,6 +53,10 @@ cp -a keys/* %{buildroot}%{_datadir}/%{name}/
 %{_datadir}/%{name}/copr
 
 %changelog
+* Wed Nov 18 2026 Miroslav Suchý <msuchy@redhat.com> 1.124-1
+- update copr keys
+- Update SUSE signing keys re-signed with SHA-256
+
 * Wed Sep 23 2026 Miroslav Suchý <msuchy@redhat.com> 1.123-1
 - update copr keys
 - update Google key block
